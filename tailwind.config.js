@@ -1,4 +1,5 @@
-/* eslint-disable no-undef */
+
+// eslint-disable-next-line no-undef
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
