@@ -13,7 +13,7 @@ const Navbar = () => {
       text-white text-xl">
         {/* NAME */}
         <div className="pl-5">
-            <h2 className="cursor-default w-44 uppercase">Thomas Bartier</h2>
+            <h2 className="cursor-default w-44 uppercase hover:scale-y-125">Thomas Bartier</h2>
         </div>
         {/* NAV */}
         <div className="flex justify-center gap-14">
