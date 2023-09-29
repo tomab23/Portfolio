@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "exp": "Expériences",
+    "contact": "Contact"
+  },
+  "title": "Bienvenue sur mon portfolio"
+}

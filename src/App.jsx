@@ -1,12 +1,13 @@
-import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
+
 
 
 function App() {
 
   return (
-    <div className="dark:bg-slate-700 h-[200vh]">
-      <Navbar />
-    </div>
+    <>
+      <Home/>
+    </>
   )
 }
 

@@ -1,4 +1,5 @@
-
+// eslint-disable-next-line no-undef
+const plugin = require('tailwindcss/plugin')
 // eslint-disable-next-line no-undef
 const defaultTheme = require('tailwindcss/defaultTheme')
 
@@ -16,5 +17,13 @@ export default {
     'xs': '380px',
     ...defaultTheme.screens,
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addBase, theme }) {
+      addBase({
+        'h1': { fontSize: theme('fontSize.2xl') },
+        'h2': { fontSize: theme('fontSize.xl') },
+        'h3': { fontSize: theme('fontSize.lg') },
+      })
+    })
+  ]
 }

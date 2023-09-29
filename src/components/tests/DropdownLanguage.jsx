@@ -1,10 +1,15 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const DropdownLanguage = () => {
+
+    
   const [isOpen, setIsOpen] = useState(false);
   const toggleDropdown = () => {
     setIsOpen((prevIsOpen) => !prevIsOpen);
   };
+
+  const { i18n } = useTranslation();
 
   function isoToEmoji(code) {
     return code
@@ -18,8 +23,14 @@ const DropdownLanguage = () => {
 
   const changeLanguage = (code) => {
     setLanguage(isoToEmoji(code));
+    if(code === "en") {
+        i18n.changeLanguage('en') 
+    } else {
+        i18n.changeLanguage("fr")
+    }
     setIsOpen(false);
   };
+  
 
   return (
     <div className="relative">
