@@ -7,6 +7,8 @@ const Home = () => {
 
     const { t } = useTranslation();
 
+    console.log("screen", screen.width, screen.height)
+
 
   return (
     <div className="dark:bg-slate-700 h-[200vh]">

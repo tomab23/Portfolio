@@ -1,10 +1,19 @@
 import { ChevronLeftCircle } from 'lucide-react';
 import cv_img from "../assets/images/CV_tb.jpg"
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 const CvPage = () => {
 
     const { t } = useTranslation();
+
+    useEffect(() => {
+      if(localStorage.getItem("darkmode") === "dark") {
+          document.documentElement.classList.add("dark");
+      } else {
+          document.documentElement.classList.remove("dark")
+      }
+    }, [])
     
   return (
     <div className="dark:bg-slate-700 py-5">
