@@ -6,5 +6,8 @@
     "exp": "Expériences",
     "contact": "Contact"
   },
-  "title": "Bienvenue !"
+  "title": "Bienvenue !",
+  "home" : {
+    "pagecv" : "Mon CV"
+  }
 }

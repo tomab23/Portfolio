@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const DropdownLanguage = () => {
@@ -19,14 +19,27 @@ const DropdownLanguage = () => {
       .join("");
   }
 
-  const [language, setLanguage] = useState(isoToEmoji("fr"));
+  const [traduction, setTraduction] = useState("");
+  const [language, setLanguage] = useState(isoToEmoji(traduction));
+
+  useEffect(() => {
+    if(localStorage.getItem("i18nextLng") === "fr-FR") {
+      setTraduction("fr")
+    } else if (localStorage.getItem("i18nextLng") === "fr") {
+      setTraduction("fr")
+    } else {
+      setTraduction("en")
+    }
+  }, [language])
 
   const changeLanguage = (code) => {
     setLanguage(isoToEmoji(code));
     if(code === "en") {
         i18n.changeLanguage('en') 
+        localStorage.setItem('i18nextLng', "en")
     } else {
         i18n.changeLanguage("fr")
+        localStorage.setItem('i18nextLng', "fr")
     }
     setIsOpen(false);
   };
@@ -38,7 +51,7 @@ const DropdownLanguage = () => {
         className="flex items-center justify-center mx-4 rounded-md"
         onClick={toggleDropdown}
       >
-        <p className="mb-1">{language}</p>
+        <p className="mb-1">{isoToEmoji(traduction)}</p>
         <svg
           className={`ml-1 w-4 h-4 transition-transform ${
             isOpen ? "transform rotate-180" : ""
