@@ -25,7 +25,7 @@ const CvPage = () => {
       </div>
       {/* IMG CV */}
       <div className='flex justify-center h-[70vw] '>
-        <img src={cv_img} alt="mon cv"/>
+        <img src={cv_img} alt="mon cv" className='border border-slate-600 dark:border-none'/>
       </div>
     </div>
   )
