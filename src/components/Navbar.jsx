@@ -1,5 +1,5 @@
 import DarkMode from "./DarkMode"
-import DropdownLanguage from "./tests/DropdownLanguage";
+import DropdownLanguage from "./DropdownLanguage";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
