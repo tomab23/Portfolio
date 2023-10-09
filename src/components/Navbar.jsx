@@ -8,7 +8,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="flex justify-center py-2">
+    <div className="flex justify-center py-3">
       <div className="flex items-center justify-between bg-slate-600 xl:w-[65vw] h-[5vh] rounded-3xl
       text-white text-xl">
         {/* NAME */}

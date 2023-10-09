@@ -28,7 +28,8 @@ const DropdownLanguage = () => {
     } else if (localStorage.getItem("i18nextLng") === "fr") {
       setTraduction("fr")
     } else {
-      setTraduction("en")
+      // setTraduction("en")
+      setTraduction("gb")
     }
   }, [language])
 
@@ -79,7 +80,8 @@ const DropdownLanguage = () => {
               className="px-4 py-2 cursor-pointer dark:hover:bg-slate-700 hover:bg-slate-500"
               onClick={() => changeLanguage("en")}
             >
-              {isoToEmoji("En")}
+              {/* {isoToEmoji("en")} */}
+              {isoToEmoji("gb")}
             </li>
           </ul>
         </div>
