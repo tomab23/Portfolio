@@ -11,6 +11,7 @@
       "pagecv" : "My resume"
     },
     "about": {
-      "title": "Developer fullstack"
-    }
+      "title": "Fullstack developer"
+    },
+    "footer": "Developed by Thomas Bartier"
   }

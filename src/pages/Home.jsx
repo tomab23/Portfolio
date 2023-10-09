@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import About from "../components/aboutMe/About";
 import ScrollToTop from "../components/ScrollToTop";
 import Skills from "../components/skills/Skills";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
 
 
   return (
-    <div className="dark:bg-slate-700 min-h-screen pb-5">
+    <div className="dark:bg-slate-700 min-h-screen ">
       <Navbar />
 
       <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1>
@@ -26,6 +27,8 @@ const Home = () => {
 
       <Skills />
       </div>
+
+      <Footer />
     </div>
   )
 }

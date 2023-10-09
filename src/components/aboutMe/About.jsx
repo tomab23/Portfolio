@@ -22,7 +22,7 @@ const About = () => {
             travaillé sur un projet de covoiturage (CoDrive) en mise en situation professionnel 
             (<a href="#"><i className="hover:underline cursor-pointer">voir mes experiences</i></a>).</p>   
             <br />     
-            <p><b>Aujourd'hui</b>, je suis en recherche d'emploi et je suis disponible immédiatement.
+            <p><b>Aujourd'hui</b>, je suis en recherche d'emploi et je suis <b>disponible immédiatement</b>.
             </p>
           </div>
             <div className="flex gap-1">
