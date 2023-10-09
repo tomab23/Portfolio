@@ -26,7 +26,7 @@ const About = () => {
             </p>
           </div>
             <div className="flex gap-1">
-          <Home/>
+          <Home />
           <p>France, Lille</p>
         </div>
         </div>
