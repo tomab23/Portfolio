@@ -11,8 +11,8 @@ const Footer = () => {
       <div className='flex justify-around p-2 dark:text-white'>
         <p>{t("footer")}</p>
         <div className='flex gap-5'>
-            <a href="" className='cursor-pointer hover:underline'>Twitter</a>
-            <a href="" className='cursor-pointer hover:underline'>Github</a>
+            <a href="https://twitter.com/toma_23_" className='cursor-pointer hover:underline'>Twitter</a>
+            <a href="https://github.com/tomab23" className='cursor-pointer hover:underline'>Github</a>
             <a href="https://www.linkedin.com/in/thomas-bartier-185752138/" className='cursor-pointer hover:underline'>LinkedIn</a>
         </div>
       </div>

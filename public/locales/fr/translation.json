@@ -7,9 +7,7 @@
     "contact": "Contact"
   },
   "title": "Bienvenue !",
-  "home" : {
-    "pagecv" : "Mon CV"
-  },
+  "pagecv" : "Mon CV",
   "about": {
     "title": "Développeur fullstack"
   },

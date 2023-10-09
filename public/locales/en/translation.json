@@ -7,9 +7,7 @@
       "contact": "Contact"
     },
     "title": "Welcome !",
-    "home" : {
-      "pagecv" : "My resume"
-    },
+    "pagecv" : "My resume",
     "about": {
       "title": "Fullstack developer"
     },

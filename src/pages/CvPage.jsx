@@ -21,7 +21,7 @@ const CvPage = () => {
       <div className='flex items-center justify-between px-20'>
         <ChevronLeftCircle size={35} className='cursor-pointer hover:scale-125 dark:text-white text-slate-600'
         onClick={() => history.back()} />
-      <h1 className="dark:text-white text-slate-600 font-bold">{t('home.pagecv')}</h1>
+      <h1 className="dark:text-white text-slate-600 font-bold">{t('pagecv')}</h1>
       </div>
       {/* IMG CV */}
       <div className='flex justify-center h-[70vw] '>
