@@ -1,5 +1,5 @@
 import { ChevronLeftCircle } from 'lucide-react';
-import cv_img from "../assets/images/CV_tb.jpg"
+import cv_img from "../assets/images/CV-tb.jpg"
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 

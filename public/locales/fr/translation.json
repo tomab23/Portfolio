@@ -9,5 +9,8 @@
   "title": "Bienvenue !",
   "home" : {
     "pagecv" : "Mon CV"
+  },
+  "about": {
+    "title": "Développeur fullstack"
   }
 }

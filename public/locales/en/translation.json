@@ -9,5 +9,8 @@
     "title": "Welcome !",
     "home" : {
       "pagecv" : "My resume"
+    },
+    "about": {
+      "title": "Developer fullstack"
     }
   }

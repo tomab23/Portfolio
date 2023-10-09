@@ -17,11 +17,11 @@ const Navbar = () => {
         </div>
         {/* NAV */}
         <div className="flex justify-center gap-14">
-            <p className="cursor-pointer hover:scale-105">{t('navbar.about')}</p>
-            <p className="cursor-pointer hover:scale-105">{t('navbar.skills')}</p> 
-            <p className="cursor-pointer hover:scale-105">{t('navbar.projects')}</p>
-            <p className="cursor-pointer hover:scale-105">{t('navbar.exp')}</p>
-            <p className="cursor-pointer hover:scale-105">{t('navbar.contact')}</p>
+            <a className="cursor-pointer hover:scale-105">{t('navbar.about')}</a>
+            <a href="#skill" className="cursor-pointer hover:scale-105">{t('navbar.skills')}</a> 
+            <a className="cursor-pointer hover:scale-105">{t('navbar.projects')}</a>
+            <a className="cursor-pointer hover:scale-105">{t('navbar.exp')}</a>
+            <a className="cursor-pointer hover:scale-105">{t('navbar.contact')}</a>
         </div>
         {/* PARAMS */}
         <div className=" flex justify-end items-center w-44 ">
