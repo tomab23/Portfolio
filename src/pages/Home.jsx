@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar"
 import About from "../components/aboutMe/About";
+import ScrollToTop from "../components/ScrollToTop";
 
 
 const Home = () => {
@@ -15,6 +16,8 @@ const Home = () => {
       <Navbar />
 
       <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1>
+
+      <ScrollToTop/>
 
       <div className="flex flex-col items-center">
       <About />

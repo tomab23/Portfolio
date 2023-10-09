@@ -13,14 +13,14 @@ const Navbar = () => {
       text-white text-xl">
         {/* NAME */}
         <div className="pl-5">
-            <h2 className="cursor-default w-44 uppercase hover:scale-y-125">Thomas Bartier</h2>
+            <h2 className="cursor-default w-44 uppercase hover:scale-y-150">Thomas Bartier</h2>
         </div>
         {/* NAV */}
         <div className="flex justify-center gap-14">
             <p className="cursor-pointer hover:scale-105">{t('navbar.about')}</p>
-            <p className="cursor-pointer hover:scale-105">{t('navbar.skills')}</p>
-            <p className="cursor-pointer hover:scale-105">{t('navbar.exp')}</p> 
+            <p className="cursor-pointer hover:scale-105">{t('navbar.skills')}</p> 
             <p className="cursor-pointer hover:scale-105">{t('navbar.projects')}</p>
+            <p className="cursor-pointer hover:scale-105">{t('navbar.exp')}</p>
             <p className="cursor-pointer hover:scale-105">{t('navbar.contact')}</p>
         </div>
         {/* PARAMS */}
