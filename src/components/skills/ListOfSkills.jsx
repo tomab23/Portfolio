@@ -13,37 +13,37 @@ import scrum from "../../assets/images/stack/scrum.png"
 
 const ListOfSkills = () => {
   return (
-    <div className="flex flex-wrap justify-start gap-5">
-    <CardSkill name={"React"} title={"React"} color={"#61dbfb"}>
+    <div className="flex flex-wrap justify-start gap-5 px-10">
+    <CardSkill name={"React"} title={"React"} color={"text-[#61dbfb]"}>
         <img src={reactIcon} alt="React logo" />
     </CardSkill>
     <CardSkill title={"React native"}>
         <img src={reactNative} alt="React native logo" className="w-[93%]" />
     </CardSkill>
-    <CardSkill name={"JavaScript"} title={"JavaScript"} color={"#f5dd1e"}>
+    <CardSkill name={"JavaScript"} title={"JavaScript"} color={"text-[#f5dd1e]"}>
         <img src={js} alt="JavaScript logo" />
     </CardSkill>
-    <CardSkill name={"TypeScript"} title={"TypeScript"} color={"#0288d1"}>
+    <CardSkill name={"TypeScript"} title={"TypeScript"} color={"text-[#0288d1]"}>
         <img src={ts} alt="TypeScript logo" />
     </CardSkill>
-    <CardSkill name={"Java"} title={"Java"} color={"#ff0000"}>
+    <CardSkill name={"Java"} title={"Java"} color={"text-[#ff0000]"}>
         <img src={java} alt="Java logo"  />
     </CardSkill>
-    <CardSkill name={"Spring boot"} title={"Spring boot"} color={"#68be43"} >
+    <CardSkill name={"Spring boot"} title={"Spring boot"} color={"text-[#68be43]"} >
         <img src={spring} alt="Spring boot logo" />
     </CardSkill>
     <CardSkill title={"MySql"}>
         <img src={mysql} alt="MySql logo"  />
     </CardSkill>
-    <CardSkill name={"i18next"} title={"i18next"} color={"#009688"}>
+    <CardSkill name={"i18next"} title={"i18next"} color={"text-[#009688]"}>
         <img src={i18n} alt="i18next logo" 
         // onClick={() => window.open("https://www.i18next.com/")}
         />
     </CardSkill>
-    <CardSkill name={"Tailwind"} title={"Tailwind"} color={"#35bef8"}>
+    <CardSkill name={"Tailwind"} title={"Tailwind"} color={"text-[#35bef8]"}>
         <img src={tailwind} alt="Tailwind logo"  />
     </CardSkill>
-    <CardSkill title={"Approche agile Scrum"} color={"white"}>
+    <CardSkill title={"Approche agile Scrum"} color={"text-white"}>
         <img src={scrum} alt="Scrum image"  />
     </CardSkill>
   </div>

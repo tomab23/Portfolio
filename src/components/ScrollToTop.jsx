@@ -16,7 +16,6 @@ const ScrollToTop = () => {
       >
         Scroll to Top
       </button>
-      {/* Your other components */}
     </div>
   )
 }
