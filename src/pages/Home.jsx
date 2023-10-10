@@ -16,7 +16,7 @@ const Home = () => {
 
 
   return (
-    <div className="dark:bg-slate-700 min-h-screen ">
+    <div className="dark:bg-slate-700 min-h-screen">
       <Navbar />
 
       <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1>

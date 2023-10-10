@@ -10,6 +10,7 @@ import mysql from "../../assets/images/stack/mysql-logo.svg"
 import i18n from "../../assets/images/stack/i18n.png"
 import tailwind from "../../assets/images/stack/taiwind.png"
 import scrum from "../../assets/images/stack/scrum.png"
+import formik from "../../assets/images/stack/formik.png"
 
 const ListOfSkills = () => {
   return (
@@ -42,6 +43,9 @@ const ListOfSkills = () => {
     </CardSkill>
     <CardSkill name={"Tailwind"} title={"Tailwind"} color={"text-[#35bef8]"}>
         <img src={tailwind} alt="Tailwind logo"  />
+    </CardSkill>
+    <CardSkill title={"Formik"}>
+        <img src={formik} alt="Formik logo"  />
     </CardSkill>
     <CardSkill title={"Approche agile Scrum"} color={"text-white"}>
         <img src={scrum} alt="Scrum image"  />
