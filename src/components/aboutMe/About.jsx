@@ -15,14 +15,12 @@ const About = () => {
         <div className="w-[70%] flex flex-col gap-5">
           <h1 className="font-bold uppe">{t('about.title')}</h1>
           <div>
-          <p>Après avoir découvert le développement en mai 2022 pendant 5 semaines, je suis partie sur une <b>CDA</b> (<i>formation 
-            concepteur développeur d'application</i>) durant 8 mois.</p>
+          <p>{t("about.p1.01")} <b>{t("about.p1.02")}</b> (<i>{t("about.p1.03")}</i>) {t("about.p1.04")}</p>
             <br />
-            <p>Après <b>obtention du diplôme</b> j'ai intégré un incubateur et une équipe pendant 4 mois où j'ai 
-            travaillé sur un projet de covoiturage (CoDrive) en mise en situation professionnel 
-            (<a href="#"><i className="hover:underline cursor-pointer">voir mes experiences</i></a>).</p>   
+            <p>{t("about.p2.01")} <b>{t("about.p2.02")}</b> {t("about.p2.03")}
+            (<a href="#projects"><i className="hover:underline cursor-pointer">{t("about.p2.04")}</i></a>).</p>   
             <br />     
-            <p><b>Aujourd'hui</b>, je suis en recherche d'emploi et je suis <b>disponible immédiatement</b>.
+            <p><b>{t("about.p3.01")}</b>{t("about.p3.02")}<b>{t("about.p3.03")}</b>.
             </p>
           </div>
             <div className="flex gap-1">

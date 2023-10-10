@@ -3,6 +3,7 @@ import cv_img from "../assets/images/CV-tb.jpg"
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import ButtonBack from '../components/buttons/ButtonBack';
+import Footer from '../components/Footer';
 
 const CvPage = () => {
 
@@ -27,6 +28,7 @@ const CvPage = () => {
       <div className='flex justify-center h-[70vw] '>
         <img src={cv_img} alt="mon cv" className='border border-slate-600 dark:border-none'/>
       </div>
+      <Footer />
     </div>
   )
 }

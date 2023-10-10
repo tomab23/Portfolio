@@ -18,8 +18,8 @@ const Navbar = () => {
         {/* NAV */}
         <div className="flex justify-center gap-14">
             <a className="cursor-pointer hover:scale-105">{t('navbar.about')}</a>
-            <a href="#skill" className="cursor-pointer hover:scale-105">{t('navbar.skills')}</a> 
-            <a href="#project" className="cursor-pointer hover:scale-105">{t('navbar.projects')}</a>
+            <a href="#skills" className="cursor-pointer hover:scale-105">{t('navbar.skills')}</a> 
+            <a href="#projects" className="cursor-pointer hover:scale-105">{t('navbar.projects')}</a>
             <a className="cursor-pointer hover:scale-105">{t('navbar.exp')}</a>
             <a className="cursor-pointer hover:scale-105">{t('navbar.contact')}</a>
         </div>

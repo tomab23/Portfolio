@@ -9,7 +9,24 @@
     "title": "Welcome !",
     "pagecv" : "My resume",
     "about": {
-      "title": "Fullstack developer"
+      "title": "Fullstack developer",
+      "p1": {
+        "01": "Après avoir découvert le développement en mai 2022 pendant 5 semaines, je suis partie sur une",
+        "02": "CDA",
+        "03": "formation concepteur développeur d'application",
+        "04": "durant 8 mois."
+      },
+      "p2": {
+        "01": "Après",
+        "02": "obtention du diplôme",
+        "03": "j'ai intégré un incubateur et une équipe pendant 4 mois où j'ai travaillé sur un projet de covoiturage (CoDrive) en mise en situation professionnelle ",
+        "04": "see my projects"
+      },
+      "p3": {
+        "01": "Today",
+        "02": ", I am looking for a job and I am available ",
+        "03": "to start immediately"
+      }
     },
     "footer": "Developed by Thomas Bartier"
   }

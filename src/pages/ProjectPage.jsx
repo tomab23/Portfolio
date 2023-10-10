@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom';
-import mock from "../model/MockProjects.json"
-import mockEn from "../model/MockProjectEn.json"
+import mock from "../models/MockProjects.json"
+import mockEn from "../models/MockProjectEn.json"
 import ButtonBack from '../components/buttons/ButtonBack';
 
 const ProjectPage = () => {

@@ -4,8 +4,8 @@ import About from "../components/aboutMe/About";
 import ScrollToTop from "../components/ScrollToTop";
 import Skills from "../components/skills/Skills";
 import Footer from "../components/Footer";
-import mock from "../model/MockProjects.json"
 import Projects from "../components/projects/Projects";
+import ContactMe from "../components/contact/ContactMe";
 
 
 const Home = () => {
@@ -30,6 +30,8 @@ const Home = () => {
       <Skills />
 
       <Projects />
+
+      <ContactMe />
       </div>
 
       <Footer />
