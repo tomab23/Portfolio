@@ -6,6 +6,7 @@ import Skills from "../components/skills/Skills";
 import Footer from "../components/Footer";
 import Projects from "../components/projects/Projects";
 import ContactMe from "../components/contact/ContactMe";
+import CustomTitle from "../components/custom/CustomTitle";
 
 
 const Home = () => {
@@ -33,7 +34,7 @@ const Home = () => {
 
       <ContactMe />
 
-      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"><span class="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">world’s potential title</span></h1>
+      <CustomTitle/>
 
       </div>
 
