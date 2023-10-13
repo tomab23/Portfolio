@@ -2,13 +2,13 @@ import React from 'react'
 
 const MeEn = () => {
   return (
+    // EN
     <div>
-    <p>Après avoir découvert le développement en mai 2022 pendant 5 semaines, je suis partie sur une <b>CDA</b> (<i>formation 
-      concepteur développeur d'application</i>) durant 8 mois.</p>
+    <p>After discovering development in May 2022 for 5 weeks, I went on a training course for <b> Application Designer and Developer</b> for 8 months.</p>
       <br />
-      <p>Après <b>obtention du diplôme</b> j'ai intégré un incubateur et une équipe pendant 4 mois où j'ai 
-      travaillé sur un projet de covoiturage (CoDrive) en mise en situation professionnel 
-      (<a href="#projects"><i className="hover:underline cursor-pointer">voir mes projets</i></a>).</p>   
+      <p>After <b>graduating</b> I joined an incubator and a team for 4 months. 
+      I worked on a car sharing project (CoDrive) in a work situation
+      (<a href="#projects"><i className="hover:underline cursor-pointer">see my projets</i></a>).</p>   
       <br />     
       <p><b>Today</b>, I am looking for a job and I am available <b>to start immediately</b>.
       </p>

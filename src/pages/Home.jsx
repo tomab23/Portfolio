@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Projects from "../components/projects/Projects";
 import ContactMe from "../components/contact/ContactMe";
 import CustomTitle from "../components/custom/CustomTitle";
+import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
 
   return (
     <div className="dark:bg-slate-700 min-h-screen">
+      <ButtonVersionInfo version={"Beta 1.0"}/>
       <Navbar />
 
       {/* <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1> */}
@@ -34,8 +36,6 @@ const Home = () => {
       <Projects />
 
       <ContactMe />
-
-      <CustomTitle>world’s potential title</CustomTitle>
 
       </div>
 

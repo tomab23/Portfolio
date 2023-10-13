@@ -2,9 +2,10 @@ import React from 'react'
 
 const MeFr = () => {
   return (
+    // FR
     <div>
     <p>Après avoir découvert le développement en mai 2022 pendant 5 semaines, je suis partie sur une <b>CDA</b> (<i>formation 
-      concepteur développeur d'application</i>) durant 8 mois.</p>
+      concepteur développeur d'applications</i>) durant 8 mois.</p>
       <br />
       <p>Après <b>obtention du diplôme</b> j'ai intégré un incubateur et une équipe pendant 4 mois où j'ai 
       travaillé sur un projet de covoiturage (CoDrive) en mise en situation professionnel 
