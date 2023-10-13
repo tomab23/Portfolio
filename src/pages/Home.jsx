@@ -20,7 +20,8 @@ const Home = () => {
     <div className="dark:bg-slate-700 min-h-screen">
       <Navbar />
 
-      <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1>
+      {/* <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1> */}
+      <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>{t('title')}</CustomTitle>
 
       <ScrollToTop/>
 
@@ -34,7 +35,7 @@ const Home = () => {
 
       <ContactMe />
 
-      <CustomTitle/>
+      <CustomTitle>world’s potential title</CustomTitle>
 
       </div>
 

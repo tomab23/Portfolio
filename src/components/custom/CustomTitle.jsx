@@ -1,11 +1,12 @@
 import React from "react";
 
-const CustomTitle = () => {
+const CustomTitle = ({ children, className }) => {
   return (
     <>
-      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <h1 className={`font-extrabold leading-none tracking-tight text-gray-900  dark:text-white ${className}`}>
         <span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">
-          world’s potential title
+          {/* world’s potential title */}
+          {children}
         </span>
       </h1>
     </>
