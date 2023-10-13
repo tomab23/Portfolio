@@ -8,7 +8,7 @@ const MeFr = () => {
       <br />
       <p>Après <b>obtention du diplôme</b> j'ai intégré un incubateur et une équipe pendant 4 mois où j'ai 
       travaillé sur un projet de covoiturage (CoDrive) en mise en situation professionnel 
-      (<a href="#projets"><i className="hover:underline cursor-pointer">voir mes experiences</i></a>).</p>   
+      (<a href="#projects"><i className="hover:underline cursor-pointer">voir mes projets</i></a>).</p>   
       <br />     
       <p><b>Aujourd'hui</b>, je suis en recherche d'emploi et je suis <b>disponible immédiatement</b>.
       </p>
