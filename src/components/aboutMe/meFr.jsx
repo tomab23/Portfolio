@@ -1,6 +1,6 @@
 import React from 'react'
 
-const meFr = () => {
+const MeFr = () => {
   return (
     <div>
     <p>Après avoir découvert le développement en mai 2022 pendant 5 semaines, je suis partie sur une <b>CDA</b> (<i>formation 
@@ -16,4 +16,4 @@ const meFr = () => {
   )
 }
 
-export default meFr
+export default MeFr

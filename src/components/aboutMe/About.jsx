@@ -2,6 +2,8 @@ import LinkAbout from "./LinkAbout";
 import pres from "../../assets/images/presentation.png"
 import { Home } from 'lucide-react';
 import { useTranslation } from "react-i18next";
+import MeFr from "./meFr";
+import MeEn from "./meEn";
 
 const About = () => {
 
@@ -14,7 +16,7 @@ const About = () => {
       <div className="flex items-center justify-between p-5 dark:text-white border border-slate-800 rounded-lg">
         <div className="w-[70%] flex flex-col gap-5">
           <h1 className="font-bold uppe">{t('about.title')}</h1>
-          <div>
+          {/* <div>
           <p>{t("about.p1.01")} <b>{t("about.p1.02")}</b> (<i>{t("about.p1.03")}</i>) {t("about.p1.04")}</p>
             <br />
             <p>{t("about.p2.01")} <b>{t("about.p2.02")}</b> {t("about.p2.03")}
@@ -22,7 +24,16 @@ const About = () => {
             <br />     
             <p><b>{t("about.p3.01")}</b>{t("about.p3.02")}<b>{t("about.p3.03")}</b>.
             </p>
-          </div>
+          </div> */}
+          {localStorage.getItem("i18nextLng") === "fr"  &&
+          <MeFr/>
+          }
+          {localStorage.getItem("i18nextLng") === "fr-FR"  &&
+          <MeFr/>
+          }
+          {localStorage.getItem("i18nextLng") === "en"  &&
+          <MeEn/>
+          }
             <div className="flex gap-1">
           <Home />
           <p>France, Lille</p>
