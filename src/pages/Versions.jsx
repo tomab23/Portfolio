@@ -40,7 +40,7 @@ const Versions = () => {
           <h2 id="futur">Versions à venir :</h2>
           <ReleaseNote version={"version 0.2"}>
             <p>- Partie experiences présente (sans toutes les informations)</p>
-            <p>- Partie contact (non fonctionnel)</p>
+            <p>- Partie contact (non fonctionnelle)</p>
             <p>- Choix des cartes de projets</p>
           </ReleaseNote>
 
