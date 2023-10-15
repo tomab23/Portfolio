@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <div className="dark:bg-slate-700 min-h-screen">
-      <ButtonVersionInfo version={"Beta 1.0"}/>
+      <ButtonVersionInfo version={"Version 0.1"}/>
       <Navbar />
 
       {/* <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1> */}

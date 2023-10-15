@@ -9,13 +9,13 @@ const CvPage = () => {
 
     const { t } = useTranslation();
 
-    useEffect(() => {
-      if(localStorage.getItem("darkmode") === "dark") {
-          document.documentElement.classList.add("dark");
-      } else {
-          document.documentElement.classList.remove("dark")
-      }
-    }, [])
+    // useEffect(() => {
+    //   if(localStorage.getItem("darkmode") === "dark") {
+    //       document.documentElement.classList.add("dark");
+    //   } else {
+    //       document.documentElement.classList.remove("dark")
+    //   }
+    // }, [])
     
   return (
     <div className="dark:bg-slate-700 py-5">

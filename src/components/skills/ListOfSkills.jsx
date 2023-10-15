@@ -14,7 +14,8 @@ import formik from "../../assets/images/stack/formik.png"
 
 const ListOfSkills = () => {
   return (
-    <div className="flex flex-wrap justify-start gap-5 px-10">
+    <div className="flex flex-wrap justify-start gap-5"> 
+    {/* px-10 ?? */}
     <CardSkill name={"React"} title={"React"} color={"text-[#61dbfb]"}>
         <img src={reactIcon} alt="React logo" />
     </CardSkill>

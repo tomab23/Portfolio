@@ -3,7 +3,7 @@ import Projects from "./Projects";
 import { useNavigate } from "react-router-dom";
 import image from "../../assets/image.png"
 
-const CardProject = ({ project }) => {
+const CardProject = ({ project, size}) => {
   const navigate = useNavigate();
 
   const goProject = () => {
@@ -16,7 +16,7 @@ const CardProject = ({ project }) => {
 
   return (
     <div
-      className="hover:scale-105 cursor-pointer border border-black rounded-lg w-80"
+      className={`hover:scale-105 cursor-pointer border border-black rounded-lg w-72`}
       onClick={goProject}
     >
       <div>

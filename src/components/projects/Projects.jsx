@@ -20,11 +20,12 @@ const Projects = () => {
       </CustomTitle>
 
 {/* CARD V1 */}
-      <div className="flex flex-wrap gap-10 px-10">
+      <div className="flex flex-wrap gap-10">
+        {/* px-10 ? */}
         {localStorage.getItem("i18nextLng") === "en" ? (
           <>
             {mockEn.map((project) => (
-              <CardProject key={project.id} project={project} />
+              <CardProject key={project.id} project={project} size={"w-80"} />
             ))}
           </>
         ) : (
@@ -36,7 +37,8 @@ const Projects = () => {
         )}
       </div>
 {/* CARD V2 */}
-      <div className="flex flex-wrap gap-10 px-10">
+      <div className="flex flex-wrap gap-10">
+        {/* px-10 ? */}
       {localStorage.getItem("i18nextLng") === "en" ? (
           <>
             {mockEn.map((project) => (

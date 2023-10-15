@@ -6,13 +6,13 @@ import ButtonBack from '../components/buttons/ButtonBack';
 
 const ProjectPage = () => {
 
-    useEffect(() => {
-        if(localStorage.getItem("darkmode") === "dark") {
-            document.documentElement.classList.add("dark");
-        } else {
-            document.documentElement.classList.remove("dark")
-        }
-      }, [])
+    // useEffect(() => {
+    //     if(localStorage.getItem("darkmode") === "dark") {
+    //         document.documentElement.classList.add("dark");
+    //     } else {
+    //         document.documentElement.classList.remove("dark")
+    //     }
+    //   }, [])
 
     const location = useLocation();
 
