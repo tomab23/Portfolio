@@ -12,5 +12,6 @@
       "title": "Fullstack developer"
     },
     "footer": "Developed by Thomas Bartier",
-    "version": "Release Notes"
+    "version": "Release Notes",
+    "alert": "The app is currently in beta, to find out more about versions, click on the version number in the top left corner."
   }

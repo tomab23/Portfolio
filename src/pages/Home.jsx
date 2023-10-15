@@ -25,6 +25,8 @@ const Home = () => {
       {/* <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1> */}
       <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>{t('title')}</CustomTitle>
 
+      <p className="dark:text-white text-center mb-5 italic">⚠️ {t("alert")} ⚠️</p>
+
       <ScrollToTop/>
 
       <div className="flex flex-col items-center gap-10">
