@@ -1,9 +1,10 @@
 import { ChevronLeftCircle } from 'lucide-react';
 import cv_img from "../assets/images/CV-tb.jpg"
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
+import { Suspense, useEffect } from 'react';
 import ButtonBack from '../components/buttons/ButtonBack';
 import Footer from '../components/Footer';
+import LoaderCercle from '../components/loader/LoaderCercle';
 
 const CvPage = () => {
 
@@ -25,9 +26,11 @@ const CvPage = () => {
       <h1 className="dark:text-white text-slate-600 font-bold">{t('pagecv')}</h1>
       </div>
       {/* IMG CV */}
-      <div className='flex justify-center h-[70vw] '>
+    <Suspense fallback={<LoaderCercle/>}>
+    <div className='flex justify-center h-[70vw] '>
         <img src={cv_img} alt="mon cv" className='border border-slate-600 dark:border-none'/>
       </div>
+    </Suspense>
       <Footer />
     </div>
   )
