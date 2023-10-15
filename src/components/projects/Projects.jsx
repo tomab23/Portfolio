@@ -25,7 +25,7 @@ const Projects = () => {
         {localStorage.getItem("i18nextLng") === "en" ? (
           <>
             {mockEn.map((project) => (
-              <CardProject key={project.id} project={project} size={"w-80"} />
+              <CardProject key={project.id} project={project} />
             ))}
           </>
         ) : (

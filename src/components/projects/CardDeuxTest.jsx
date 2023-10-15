@@ -17,7 +17,7 @@ const CardDeuxTest = ({ project }) => {
 
     return (
         <div
-        className="border border-black rounded-lg w-80"
+        className="border border-black rounded-lg w-72"
         onClick={goProject}
       >
         <div>

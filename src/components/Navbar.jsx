@@ -16,7 +16,8 @@ const Navbar = () => {
             <h2 className="cursor-default w-44 uppercase hover:scale-y-150">Thomas Bartier</h2>
         </div>
         {/* NAV */}
-        <div className="flex justify-center gap-14">
+        <div className="flex justify-center gap-10 text-lg">
+          {/* TODO: text-lg en attendant le responsive && gap-14 de base */}
             <a className="cursor-pointer hover:scale-105">{t('navbar.about')}</a>
             <a href="#skills" className="cursor-pointer hover:scale-105">{t('navbar.skills')}</a> 
             <a href="#projects" className="cursor-pointer hover:scale-105">{t('navbar.projects')}</a>

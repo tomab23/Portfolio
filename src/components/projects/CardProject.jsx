@@ -3,7 +3,7 @@ import Projects from "./Projects";
 import { useNavigate } from "react-router-dom";
 import image from "../../assets/image.png"
 
-const CardProject = ({ project, size}) => {
+const CardProject = ({ project }) => {
   const navigate = useNavigate();
 
   const goProject = () => {
