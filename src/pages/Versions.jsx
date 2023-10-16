@@ -13,6 +13,7 @@ const Versions = () => {
       <div className="flex gap-10">
         <ButtonBack nav={true} />
         <h1 className="font-mono">{t("version")}</h1>
+        {/* TODO: add date */}
       </div>
 
       <div className="ml-20 mt-10 flex gap-5">
