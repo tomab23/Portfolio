@@ -9,6 +9,7 @@ import CardDeuxTest from "./CardDeuxTest";
 const Projects = () => {
   const { t } = useTranslation();
 
+
   return (
     <div
       id="projects"
@@ -18,6 +19,8 @@ const Projects = () => {
       <CustomTitle className={"text-3xl mt-5 mb-10 self-start"}>
         {t("navbar.projects")}
       </CustomTitle>
+
+      
 
 {/* CARD V1 */}
       <div className="flex flex-wrap gap-10">
@@ -53,6 +56,7 @@ const Projects = () => {
           </>
         )}
       </div>
+      
     </div>
   );
 };

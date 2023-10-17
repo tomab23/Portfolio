@@ -20,7 +20,7 @@ const ListOfSkills = () => {
         <img src={reactIcon} alt="React logo" />
     </CardSkill>
     <CardSkill title={"React native"}>
-        <img src={reactNative} alt="React native logo" className="w-[93%]" />
+        <img src={reactNative} alt="React native logo" className="w-[93%]"  />
     </CardSkill>
     <CardSkill name={"JavaScript"} title={"JavaScript"} color={"dark:text-[#f5dd1e] text-black"}>
         <img src={js} alt="JavaScript logo" />
@@ -32,7 +32,7 @@ const ListOfSkills = () => {
         <img src={java} alt="Java logo"  />
     </CardSkill>
     <CardSkill name={"Spring boot"} title={"Spring boot"} color={"text-[#68be43]"} >
-        <img src={spring} alt="Spring boot logo" />
+        <img src={spring} alt="Spring boot logo" className='object-contain' />
     </CardSkill>
     <CardSkill title={"MySql"}>
         <img src={mysql} alt="MySql logo"  />

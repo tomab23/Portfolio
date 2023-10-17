@@ -8,6 +8,8 @@ import Projects from "../components/projects/Projects";
 import ContactMe from "../components/contact/ContactMe";
 import CustomTitle from "../components/custom/CustomTitle";
 import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
+import { projectTest } from "../models/projectTest";
+import CardProjectTrois from "../components/projects/CardProjectTrois";
 
 
 const Home = () => {
@@ -28,6 +30,7 @@ const Home = () => {
 
       <p className="dark:text-white text-center mb-5 italic">📱 {t("phone")} 📱</p>
       <p className="dark:text-white text-center mb-5 italic">⚠️ {t("alert")} ⚠️</p>
+
 
       <ScrollToTop/>
 
