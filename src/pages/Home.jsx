@@ -10,6 +10,7 @@ import CustomTitle from "../components/custom/CustomTitle";
 import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
 import { projectTest } from "../models/projectTest";
 import CardProjectTrois from "../components/projects/CardProjectTrois";
+import Experiences from "../components/experiences/experiences";
 
 
 const Home = () => {
@@ -41,6 +42,8 @@ const Home = () => {
       <Skills />
 
       <Projects />
+
+      <Experiences/>
 
       <ContactMe />
 
