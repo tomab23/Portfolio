@@ -22,7 +22,7 @@ const ListOfSkills = () => {
     <CardSkill title={"React native"}>
         <img src={reactNative} alt="React native logo" className="w-[93%]"  />
     </CardSkill>
-    <CardSkill name={"JavaScript"} title={"JavaScript"} color={"dark:text-[#f5dd1e] text-black"}>
+    <CardSkill name={"JavaScript"} title={"JavaScript"} color={"dark:text-[#f5dd1e] text-yellow-500"}>
         <img src={js} alt="JavaScript logo" />
     </CardSkill>
     <CardSkill name={"TypeScript"} title={"TypeScript"} color={"text-[#0288d1]"}>

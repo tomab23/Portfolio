@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
 
 
-
 const CardSkill = ({ children, name, title, color }) => {
 
 
