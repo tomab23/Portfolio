@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import mock from "../../models/MockProjects.json";
+// import mock from "../../models/MockProjects.json";
 import mockEn from "../../models/MockProjectEn.json";
-import CardProject from "./CardProject";
 import { useTranslation } from "react-i18next";
 import CustomTitle from "../custom/CustomTitle";
 import CardDeuxTest from "./CardDeuxTest";
+import { ProjectsMock } from './../../models/ProjectsMock';
+import { ProjectsMockEn } from "../../models/ProjectsMockEn";
 
 const Projects = () => {
   const { t } = useTranslation();
-
 
   return (
     <div
@@ -20,43 +20,34 @@ const Projects = () => {
         {t("navbar.projects")}
       </CustomTitle>
 
-      
-
-{/* CARD V1 */}
       <div className="flex flex-wrap gap-10">
-        {/* px-10 ? */}
+      {ProjectsMock.map((project) => (
+              <CardDeuxTest key={project.id} project={project} />
+            ))}
+      </div>
+
+      {/* <div className="flex flex-wrap gap-10">
         {localStorage.getItem("i18nextLng") === "en" ? (
           <>
-            {mockEn.map((project) => (
-              <CardProject key={project.id} project={project} />
-            ))}
-          </>
-        ) : (
-          <>
-            {mock.map((project) => (
-              <CardProject key={project.id} project={project} />
-            ))}
-          </>
-        )}
-      </div>
-{/* CARD V2 */}
-      <div className="flex flex-wrap gap-10">
-        {/* px-10 ? */}
-      {localStorage.getItem("i18nextLng") === "en" ? (
-          <>
-            {mockEn.map((project) => (
+            {ProjectsMockEn.map((project) => (
               <CardDeuxTest key={project.id} project={project} />
             ))}
           </>
         ) : (
           <>
-            {mock.map((project) => (
+            {ProjectsMock.map((project) => (
               <CardDeuxTest key={project.id} project={project} />
             ))}
           </>
         )}
-      </div>
-      
+      </div> */}
+
+      {/* CARD V2 */}
+
+      {/* <div className="flex gap-10 mt-10">
+        <CardQuatre />
+      </div> */}
+
     </div>
   );
 };

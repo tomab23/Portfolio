@@ -3,6 +3,8 @@ import { useLocation } from 'react-router-dom';
 import mock from "../models/MockProjects.json"
 import mockEn from "../models/MockProjectEn.json"
 import ButtonBack from '../components/buttons/ButtonBack';
+import { ProjectsMock } from '../models/ProjectsMock';
+import { ProjectsMockEn } from '../models/ProjectsMockEn';
 
 const ProjectPage = () => {
 
@@ -23,15 +25,15 @@ const ProjectPage = () => {
     });
 
 
+    console.log("resume", project.resume);
+
+
     useEffect(() => {
-        if(localStorage.getItem("i18nextLng") === "fr-FR") {
-            const proj = mock.find((project) => project.id === location.state.id);
-            setProject(proj)
-          } else if (localStorage.getItem("i18nextLng") === "fr") {
-            const proj = mock.find((project) => project.id === location.state.id);
-            setProject(proj)
+        if(localStorage.getItem("i18nextLng") === "en") {
+          const proj = ProjectsMockEn.find((project) => project.id === location.state.id);
+          setProject(proj)
           } else {
-            const proj = mockEn.find((project) => project.id === location.state.id);
+            const proj = ProjectsMock.find((project) => project.id === location.state.id);
             setProject(proj)
           }
     }, [])

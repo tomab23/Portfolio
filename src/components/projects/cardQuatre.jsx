@@ -1,6 +1,6 @@
 import React from 'react'
 
-const cardQuatre = () => {
+const CardQuatre = () => {
   return (
 <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600">
@@ -22,4 +22,4 @@ const cardQuatre = () => {
   )
 }
 
-export default cardQuatre
+export default CardQuatre

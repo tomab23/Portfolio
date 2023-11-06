@@ -16,6 +16,7 @@
     "lastname": "Votre nom",
     "email": "Votre email",
     "message": "Votre message",
+    "placeholder": "Tapez votre message ici.",
     "send": "Envoyer"
   },
   "footer": "Développé par Thomas Bartier",

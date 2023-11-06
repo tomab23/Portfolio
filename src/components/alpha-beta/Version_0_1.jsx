@@ -10,7 +10,7 @@ const Version_0_1 = () => {
       <p>- Traduction partiel pour l'instant</p>
       <p>- CV qu'en français</p>
       <p>- Liens fonctionnelles</p>
-      <p>- Navigation fonctionels</p>
+      <p>- Navigation fonctionel</p>
       <p>- Bouton scroll to top (pour revenir en haut de page) fonctionnel mais pas terminé</p>
       <p>- Application non responsive</p>
       <p>- Partie expériences pas encore mise en place</p>

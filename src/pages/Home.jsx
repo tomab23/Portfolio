@@ -8,8 +8,6 @@ import Projects from "../components/projects/Projects";
 import ContactMe from "../components/contact/ContactMe";
 import CustomTitle from "../components/custom/CustomTitle";
 import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
-import { projectTest } from "../models/projectTest";
-import CardProjectTrois from "../components/projects/CardProjectTrois";
 import Experiences from "../components/experiences/experiences";
 
 

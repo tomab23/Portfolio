@@ -1,3 +1,8 @@
 dernier ajout : 
 
 - visuel du formulaire de contact + traduction
+- visuel experiences (sans informations réelles)
+- modification carte projets + ajout de badge avec les technologies
+
+A faire : 
+- add le mail a droite du bouton envoyer
