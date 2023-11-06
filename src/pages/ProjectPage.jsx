@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import mock from "../models/MockProjects.json"
 import mockEn from "../models/MockProjectEn.json"
 import ButtonBack from '../components/buttons/ButtonBack';
-import { ProjectsMock } from '../models/ProjectsMock';
+import { ProjectsMockFr } from '../models/ProjectsMockFr';
 import { ProjectsMockEn } from '../models/ProjectsMockEn';
 
 const ProjectPage = () => {
@@ -33,7 +33,7 @@ const ProjectPage = () => {
           const proj = ProjectsMockEn.find((project) => project.id === location.state.id);
           setProject(proj)
           } else {
-            const proj = ProjectsMock.find((project) => project.id === location.state.id);
+            const proj = ProjectsMockFr.find((project) => project.id === location.state.id);
             setProject(proj)
           }
     }, [])

@@ -4,7 +4,7 @@ import mockEn from "../../models/MockProjectEn.json";
 import { useTranslation } from "react-i18next";
 import CustomTitle from "../custom/CustomTitle";
 import CardDeuxTest from "./CardDeuxTest";
-import { ProjectsMock } from './../../models/ProjectsMock';
+import { ProjectsMockFr } from '../../models/ProjectsMockFr';
 import { ProjectsMockEn } from "../../models/ProjectsMockEn";
 
 const Projects = () => {
@@ -20,13 +20,8 @@ const Projects = () => {
         {t("navbar.projects")}
       </CustomTitle>
 
-      <div className="flex flex-wrap gap-10">
-      {ProjectsMock.map((project) => (
-              <CardDeuxTest key={project.id} project={project} />
-            ))}
-      </div>
 
-      {/* <div className="flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-10">
         {localStorage.getItem("i18nextLng") === "en" ? (
           <>
             {ProjectsMockEn.map((project) => (
@@ -35,12 +30,12 @@ const Projects = () => {
           </>
         ) : (
           <>
-            {ProjectsMock.map((project) => (
+            {ProjectsMockFr.map((project) => (
               <CardDeuxTest key={project.id} project={project} />
             ))}
           </>
         )}
-      </div> */}
+      </div>
 
       {/* CARD V2 */}
 
