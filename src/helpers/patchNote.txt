@@ -1,8 +1,13 @@
 dernier ajout : 
 
-- visuel du formulaire de contact + traduction
+- visuel du formulaire de contact, ajout de mon adresse mail et de la traduction
 - visuel experiences (sans informations réelles)
-- modification carte projets + ajout de badge avec les technologies
+- modification carte projets, ajout de badge avec les technologies
+- add le mail a droite du bouton envoyer
 
 A faire : 
-- add le mail a droite du bouton envoyer
+- faire badge tech project
+- trad versions
+
+version 0.2.1
+- modification menu choix langue

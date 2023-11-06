@@ -40,9 +40,9 @@ const Versions = () => {
         <div className="my-20">
           <h2 id="futur">Versions à venir :</h2>
           <ReleaseNote version={"version 0.2"}>
-            <p>- Partie experiences (sans informations réelles)</p>
-            <p>- Partie contact traduite et non fonctionnelle </p>
-            <p>- Modification des cartes de projet et ajout de badges avec les technologies</p>
+            <p>- Ajout partie experiences (sans informations réelles)</p>
+            <p>- AJout formulaire de contact, ajout de mon adresse mail et de la traduction, "envoyer" non fonctionnelle </p>
+            <p>- Modification des cartes de projet, ajout de badges avec les technologies</p>
             <p>- Traduction des notes de version</p>
           </ReleaseNote>
 

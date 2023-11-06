@@ -16,14 +16,14 @@ export const ProjectsMock = [
     {
         id: 2,
         name: "test_deux",
-        resume: en ? "Welcome on the project 1" : "bienvenue sur le projet 1",
+        resume: en ? "Welcome on the project 2" : "bienvenue sur le projet 2",
         img: img2,
         tech: ["React", "Java", "MySql"],
     },
     {
         id: 3,
         name: "test_trois",
-        resume: en ? "Welcome on the project 1" : "bienvenue sur le projet 1",
+        resume: en ? "Welcome on the project 3" : "bienvenue sur le projet 3",
         img: img3,
         tech: ["React", "Java", "MySql"],
     }

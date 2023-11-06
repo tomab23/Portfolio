@@ -1,7 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Mail } from "lucide-react";
 
-const ButtonSendV1 = () => {
+const ButtonSend = () => {
   const { t } = useTranslation();
 
   return (
@@ -35,4 +36,4 @@ const ButtonSendV1 = () => {
   );
 };
 
-export default ButtonSendV1;
+export default ButtonSend;
