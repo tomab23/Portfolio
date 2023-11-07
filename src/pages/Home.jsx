@@ -8,7 +8,7 @@ import Projects from "../components/projects/Projects";
 import ContactMe from "../components/contact/ContactMe";
 import CustomTitle from "../components/custom/CustomTitle";
 import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
-import Experiences from "../components/experiences/experiences";
+import Experiences from './../components/experiences/Experiences';
 
 
 const Home = () => {
