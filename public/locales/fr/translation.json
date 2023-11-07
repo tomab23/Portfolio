@@ -11,8 +11,25 @@
   "about": {
     "title": "Développeur fullstack"
   },
+  "project": {
+    "read": "Voir plus"
+  },
+  "contactme": {
+    "firstname":"Votre prénom",
+    "lastname": "Votre nom",
+    "email": "Votre email",
+    "message": "Votre message",
+    "placeholder": "Tapez votre message ici.",
+    "send": "Envoyer"
+  },
+  "totop": "Haut de page",
   "footer": "Développé par Thomas Bartier",
   "version": "Notes de versions",
+  "release": {
+    "future": "Versions à venir",
+    "current": "Version actuelle",
+    "old": "Anciennes versions"
+  },
   "alert": "L'application est actuellement en beta, pour en savoir plus sur les versions, cliquer sur le numéro de version en haut a gauche",
   "phone": "Pas encore optimisé pour mobile"
 }

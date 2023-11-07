@@ -27,7 +27,7 @@ const CvPage = () => {
       {/* IMG CV */}
     <Suspense fallback={<h2>🌀 Loading...</h2>}>
     <div className='flex justify-center h-[70vw] '>
-        <img src={cv_img} alt="mon cv" className='border border-slate-600 dark:border-none'/>
+        <img src={cv_img} alt="mon cv" className='border border-slate-600 dark:border-none' loading="lazy"/>
       </div>
     </Suspense>
       <Footer />

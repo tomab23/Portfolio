@@ -11,11 +11,11 @@ export default {
   ],
   darkMode: 'class',
   theme: {
+    screens: {
+      'xs': '380px',
+      ...defaultTheme.screens,
+    },
     extend: {},
-  },
-  screens: {
-    'xs': '380px',
-    ...defaultTheme.screens,
   },
   plugins: [
     plugin(function({ addBase, theme }) {

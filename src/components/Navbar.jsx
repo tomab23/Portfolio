@@ -21,7 +21,7 @@ const Navbar = () => {
             <a className="cursor-pointer hover:scale-105">{t('navbar.about')}</a>
             <a href="#skills" className="cursor-pointer hover:scale-105">{t('navbar.skills')}</a> 
             <a href="#projects" className="cursor-pointer hover:scale-105">{t('navbar.projects')}</a>
-            <a className="cursor-pointer hover:scale-105">{t('navbar.exp')}</a>
+            <a href="#exp" className="cursor-pointer hover:scale-105">{t('navbar.exp')}</a>
             <a href="#contact" className="cursor-pointer hover:scale-105">{t('navbar.contact')}</a>
         </div>
         {/* PARAMS */}
