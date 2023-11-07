@@ -2,10 +2,12 @@ import React from 'react'
 import { useNavigate } from "react-router-dom";
 import image from "../../assets/image.png"
 import BadgeTech from './BadgeTech';
+import { useTranslation } from 'react-i18next';
 
 const CardDeuxTest = ({ project }) => {
 
     const navigate = useNavigate();
+    const { t } = useTranslation();
 
     const goProject = () => {
       navigate(`/project/${project.name}`, {
@@ -36,7 +38,7 @@ const CardDeuxTest = ({ project }) => {
             <BadgeTech />
           </div>
           <button onClick={goProject} className="self-end rounded-lg py-1 px-2 bg-blue-600 cursor-pointer hover:scale-110 text-white mt-2">
-            Read more
+          {t("project.read")}
           </button>
         </div>
       </div>

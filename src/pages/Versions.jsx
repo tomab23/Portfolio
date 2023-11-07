@@ -16,24 +16,23 @@ const Versions = () => {
       <div className="flex gap-10">
         <ButtonBack nav={true} />
         <h1 className="font-mono">{t("version")}</h1>
-        {/* TODO: add date */}
       </div>
 
       <div className="ml-20 mt-10 flex gap-5">
         <a href="#futur" 
         className="cursor-pointer border border-slate-600 dark:bg-slate-600 p-1.5 rounded-lg dark:hover:bg-slate-900 hover:bg-slate-200">
-          Versions à venir
+          {t("release.future")}
         </a>
         <a href="#past" 
         className="cursor-pointer border border-slate-600 dark:bg-slate-600 p-1.5 rounded-lg dark:hover:bg-slate-900 hover:bg-slate-200">
-          Versions passées
+          {t("release.old")}
         </a>
       </div>
 
       {/* Actual release note */}
       <div className="px-20 mt-10">
         <div>
-          <h2>Version actuelle :</h2>
+          <h2>{t("release.current")} :</h2>
           <ReleaseNote version={"version 0.2"}>
           <Version_0_2/>
           </ReleaseNote>
@@ -41,7 +40,7 @@ const Versions = () => {
 
         {/* Futur release note */}
         <div className="my-20">
-          <h2 id="futur">Versions à venir :</h2>
+          <h2 id="futur">{t("release.future")} :</h2>
 
           <ReleaseNote version={"version 0.3"}>
             <Version_0_3/>
@@ -54,7 +53,7 @@ const Versions = () => {
 
         {/* Past release note */}
         <div>
-        <h2  id='past'>Anciennes versions :</h2>
+        <h2  id='past'>{t("release.old")} :</h2>
         <ReleaseNote version={"version 0.1"}>
             <Version_0_1/>
           </ReleaseNote>

@@ -85,7 +85,7 @@ const ContactMe = () => {
         <div className="flex justify-between items-center">
           <ButtonSend />
           <div className="flex items-center gap-2">
-            <Mail className="text-gray-200" />
+            <Mail className="dark:text-gray-200" />
             <p className="dark:text-gray-200">thomas.bartier59@gmail.com</p>
           </div>
         </div>
