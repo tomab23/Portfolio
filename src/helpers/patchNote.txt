@@ -1,7 +1,8 @@
 dernier ajout : 
 
-version 0.2.1
-- modification menu choix langue
 
 version 0.2.2
 - responsive release note
+
+a ajouter : 
+- Faire apparaitre le bouton scroll to top quand l'utilisateur descend.
