@@ -1,10 +1,9 @@
 dernier ajout : 
 
 
-version 0.2.2
-- modifier le footer => liens des reseaux plutot avec le logo qu'avec le texte
 TODO:
 - responsive release note
 
-a ajouter : 
-- Faire apparaitre le bouton scroll to top quand l'utilisateur descend.
+a ajouter ? : 
+- Barre de navigation qui reste quand on descend la page d'accueil -
+ Navbar that remains when you scroll down the home page ???
