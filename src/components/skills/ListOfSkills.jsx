@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import CardSkill from './CardSkill'
 import reactIcon from "../../assets/images/stack/react.png"
 import reactNative from "../../assets/images/stack/reactNative.png"
@@ -6,16 +6,17 @@ import js from "../../assets/images/stack/js.png"
 import ts from "../../assets/images/stack/typescript.png"
 import java from "../../assets/images/stack/java.png"
 import spring from "../../assets/images/stack/spring.png"
-import mysql from "../../assets/images/stack/mysql-logo.svg"
 import i18n from "../../assets/images/stack/i18n.png"
 import tailwind from "../../assets/images/stack/taiwind.png"
 import scrum from "../../assets/images/stack/scrum.png"
 import formik from "../../assets/images/stack/formik.png"
+import mysql from "../../assets/images/stack/mysql-logo.svg"
 
 const ListOfSkills = () => {
   return (
     <div className="flex flex-wrap justify-start gap-5"> 
     {/* px-10 ?? */}
+    <Suspense>
     <CardSkill name={"React"} title={"React"} color={"text-[#61dbfb]"}>
         <img src={reactIcon} alt="React logo" />
     </CardSkill>
@@ -51,6 +52,7 @@ const ListOfSkills = () => {
     <CardSkill title={"Approche agile Scrum"} color={"text-white"}>
         <img src={scrum} alt="Scrum image"  />
     </CardSkill>
+    </Suspense>
   </div>
   )
 }

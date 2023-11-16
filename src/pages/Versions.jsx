@@ -10,18 +10,19 @@ import Version_0_2 from "../versions/Version_0_2";
 import Version_0_2_1 from "../versions/Version_0_2_1";
 import Version_0_2_2 from "../versions/Version_0_2_2";
 import Version_0_5 from "../versions/Version_0_5";
+import Version_0_2_3 from "../versions/Version_0_2_3";
 
 const Versions = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="dark:bg-slate-700 min-h-screen px-20 py-5 dark:text-white">
+    <div className="dark:bg-slate-700 min-h-screen xs:px-2 sm:px-20 py-5 dark:text-white">
       <div className="flex gap-10">
         <ButtonBack nav={true} />
         <h1 className="font-mono">{t("version")}</h1>
       </div>
 
-      <div className="ml-20 mt-10 flex gap-5">
+      <div className="xs:ml-12 sm:ml-20 mt-10 flex gap-5">
         <a href="#futur" 
         className="cursor-pointer border border-slate-600 dark:bg-slate-600 p-1.5 rounded-lg dark:hover:bg-slate-900 hover:bg-slate-200">
           {t("release.future")}
@@ -33,11 +34,11 @@ const Versions = () => {
       </div>
 
       {/* Actual release note */}
-      <div className="px-20 mt-10">
+      <div className="xs:px-12 sm:px-20 mt-10">
         <div>
           <h2>{t("release.current")} :</h2>
-          <ReleaseNote version={"version 0.2.2"}>
-          <Version_0_2_2/>
+          <ReleaseNote version={"version 0.2.3"}>
+          <Version_0_2_3/>
           </ReleaseNote>
         </div>
 
@@ -61,6 +62,9 @@ const Versions = () => {
         {/* Past release note */}
         <div>
         <h2  id='past'>{t("release.old")} :</h2>
+        <ReleaseNote version={"version 0.2.2"}>
+          <Version_0_2_2/>
+          </ReleaseNote>
         <ReleaseNote version={"version 0.2.1"}>
           <Version_0_2_1/>
           </ReleaseNote>

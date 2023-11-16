@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { useNavigate } from "react-router-dom";
 import image from "../../assets/image.png"
 import BadgeTech from './BadgeTech';
@@ -22,7 +22,9 @@ const CardDeuxTest = ({ project }) => {
         className="border border-black rounded-lg w-72"
       >
         <div>
-          <img src={image} alt="" className="rounded-t-lg" />
+          <Suspense>
+          <img src={project.img} alt="" className="rounded-t-lg" />
+          </Suspense>
         </div>
         <div className="p-3 flex flex-col justify-center items-start">
           <h1 className='dark:text-gray-50'>{project.name}</h1>

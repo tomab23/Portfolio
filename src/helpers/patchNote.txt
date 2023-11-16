@@ -2,8 +2,14 @@ dernier ajout :
 
 
 TODO:
-- responsive release note
+- mettre en place bg-color dans tailwind config
+
+- Faire la page de projet (mettre les img en svg ??)
 
 a ajouter ? : 
+
+- menu de navigation qui apparait a gauche quand on scroll down ?
+ 
+
 - Barre de navigation qui reste quand on descend la page d'accueil -
  Navbar that remains when you scroll down the home page ???
