@@ -82,7 +82,7 @@ const ContactMe = () => {
         </div>
         {/* <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button> */}
 
-        <div className="flex justify-between items-center">
+        <div className="flex xs:flex-wrap-reverse xs:gap-5 justify-between items-center">
           <ButtonSend />
           <div className="flex items-center gap-2">
             <Mail className="dark:text-gray-200" />

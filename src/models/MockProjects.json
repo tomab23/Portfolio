@@ -2,16 +2,31 @@
     {
         "id": 1,
         "name": "test_un",
-        "resume": "Welcome on the project 1"
+        "resume": "bienvenue sur le projet 1",
+        "img": "images/un.jpg",
+        "tech": ["React", "Java", "MySql"],
+        "description": "Description du projet 1",
+        "date": "2023",
+        "imgs": ["images/un.jpg", "images/deux.jpg", "images/trois.png"]
     },
     {
         "id": 2,
-        "name": "test_deux",
-        "resume": "Welcome on the project 2"
+        "name": "test_un",
+        "resume": "bienvenue sur le projet 2",
+        "img": "images/un.jpg",
+        "tech": ["React", "Java", "MySql"],
+        "description": "Description du projet 2",
+        "date": "2023",
+        "imgs": ["images/un.jpg", "images/deux.jpg", "images/trois.png"]
     },
     {
         "id": 3,
-        "name": "test_trois",
-        "resume": "Welcome on the project 3"
+        "name": "test_un",
+        "resume": "bienvenue sur le projet 3",
+        "img": "images/un.jpg",
+        "tech": ["React", "Java", "MySql"],
+        "description": "Description du projet 3",
+        "date": "2023",
+        "imgs": ["images/un.jpg", "images/deux.jpg", "images/trois.png"]
     }
 ]

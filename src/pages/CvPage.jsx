@@ -18,7 +18,7 @@ const CvPage = () => {
 
     
   return (
-    <div className="dark:bg-slate-700 py-5">
+    <div className="dark:bg-backApp-dark bg-backApp-light py-5">
       
       <div className='flex items-center justify-between px-20'>
         <ButtonBack/>

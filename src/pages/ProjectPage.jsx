@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import mock from "../models/MockProjects.json";
 import mockEn from "../models/MockProjectEn.json";
@@ -7,15 +7,9 @@ import { ProjectsMockFr } from "../models/ProjectsMockFr";
 import { ProjectsMockEn } from "../models/ProjectsMockEn";
 import BadgeTech from "../components/projects/BadgeTech";
 import ImageSize from "../components/projects/ImageSize";
+import LinksProject from "../components/projects/LinksProject";
 
 const ProjectPage = () => {
-  // useEffect(() => {
-  //     if(localStorage.getItem("darkmode") === "dark") {
-  //         document.documentElement.classList.add("dark");
-  //     } else {
-  //         document.documentElement.classList.remove("dark")
-  //     }
-  //   }, [])
 
   const location = useLocation();
 
@@ -23,7 +17,14 @@ const ProjectPage = () => {
     id: null,
     name: "",
     resume: "",
+    tech: [],
+    description: "",
+    date: "",
+    github: "",
+    site: "",
+    imgs: []
   });
+
 
   console.log("resume", project.resume);
 
@@ -41,8 +42,11 @@ const ProjectPage = () => {
     }
   }, []);
 
+
+  const siteExist = project.site === "" ? false : true;
+
   return (
-    <div className="dark:bg-slate-700 min-h-screen px-20 py-5 dark:text-white">
+    <div className="dark:bg-backApp-dark bg-backApp-light min-h-screen px-20 py-5 dark:text-white">
       <ButtonBack />
       <h1 className="text-center">Projet : {project.name}</h1>
 
@@ -56,6 +60,10 @@ const ProjectPage = () => {
             <BadgeTech key={tech} tech={tech} />
           ))}
         </div>
+
+       <Suspense>
+       <LinksProject github={project.github} site={siteExist} siteUrl={project.site}/>
+       </Suspense>
 
         <div className="flex flex-wrap gap-1 mt-10">
           {project.imgs?.map((img) => (

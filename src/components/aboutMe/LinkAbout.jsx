@@ -20,7 +20,7 @@ const LinkAbout = () => {
     </div>
     <div className="w-24 h-10 rounded-full bg-[#0e76a8] flex justify-center items-center cursor-pointer hover:scale-110"
     onClick={handleLinkedin}>
-        <p className="text-white dark:text-inherit">LinkedIn</p>
+        <p className="text-white ">LinkedIn</p>
     </div>
     <div className="w-24 h-10 rounded-full bg-[#171515] flex justify-center items-center cursor-pointer hover:scale-110"
     onClick={handleGithub}>

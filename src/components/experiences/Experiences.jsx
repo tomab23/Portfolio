@@ -12,6 +12,7 @@ const Experiences = () => {
 
       <ol className="relative border-l border-gray-200 dark:border-gray-700 mt-10">
         {/* EXP 1 */}
+        <li>
         <InfoExp
           latest="true"
           title={"Flowbite Application UI v2.0.0"}
@@ -20,7 +21,9 @@ const Experiences = () => {
           Get access to over 20+ pages including a dashboard layout, charts,
           kanban board, calendar, and pre-order E-commerce & Marketing pages.
         </InfoExp>
+        </li>
         {/* EXP 1 */}
+        <li>
         <InfoExp
           title={"Flowbite Figma v1.3.0"}
           date={"Released on December 7th, 2021"}
@@ -28,6 +31,7 @@ const Experiences = () => {
           All of the pages and components are first designed in Figma and we
           keep a parity between the two versions even as we update the project.
         </InfoExp>
+        </li>
       </ol>
     </div>
   );

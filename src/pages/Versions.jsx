@@ -16,7 +16,7 @@ const Versions = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="dark:bg-slate-700 min-h-screen xs:px-2 sm:px-20 py-5 dark:text-white">
+    <div className="dark:bg-backApp-dark bg-backApp-light min-h-screen xs:px-2 sm:px-20 py-5 dark:text-white">
       <div className="flex gap-10">
         <ButtonBack nav={true} />
         <h1 className="font-mono">{t("version")}</h1>

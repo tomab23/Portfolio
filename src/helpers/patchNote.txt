@@ -1,8 +1,12 @@
 dernier ajout : 
+- img skills opti en png
+- accessibilité update
 
 
 TODO:
 - mettre en place bg-color dans tailwind config
+
+- test avec png opti et svg , voir la dif de perf
 
 - Faire la page de projet (mettre les img en svg ??)
 

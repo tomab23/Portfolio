@@ -12,7 +12,8 @@
       "title": "Fullstack developer"
     },
     "project": {
-      "read": "Read more"
+      "read": "Read more",
+      "alt": "Image of the project"
     },
     "contactme": {
       "firstname":"Your firstname",

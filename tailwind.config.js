@@ -15,7 +15,14 @@ export default {
       'xs': '380px',
       ...defaultTheme.screens,
     },
-    extend: {},
+    extend: {
+      colors: {
+        "backApp": {
+          "light": "#d1d5db",
+          "dark": "#334155"
+        }
+      },
+    },
   },
   plugins: [
     plugin(function({ addBase, theme }) {

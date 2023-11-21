@@ -19,7 +19,7 @@ const Home = () => {
 
 
   return (
-    <div className="dark:bg-slate-700 bg-gray-300 min-h-screen">
+    <div className="dark:bg-backApp-dark bg-backApp-light min-h-screen">
       <ButtonVersionInfo version={"Version 0.2.3"}/>
       <Navbar />
 

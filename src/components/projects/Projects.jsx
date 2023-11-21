@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import mock from "../../models/MockProjects.json";
 import mockEn from "../../models/MockProjectEn.json";
+import mockFr from "../../models/MockProjects.json";
 import { useTranslation } from "react-i18next";
 import CustomTitle from "../custom/CustomTitle";
 import CardDeuxTest from "./CardDeuxTest";

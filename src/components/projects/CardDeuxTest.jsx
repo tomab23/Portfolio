@@ -36,9 +36,6 @@ const CardDeuxTest = ({ project }) => {
             ))}
           </div>
 
-          <div>
-            <BadgeTech />
-          </div>
           <button onClick={goProject} className="self-end rounded-lg py-1 px-2 bg-blue-600 cursor-pointer hover:scale-110 text-white mt-2">
           {t("project.read")}
           </button>
