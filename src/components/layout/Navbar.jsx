@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import DarkMode from "./DarkMode"
-import DropdownLanguage from "./DropdownLanguage";
+import DarkMode from "../DarkMode"
+import DropdownLanguage from "../DropdownLanguage";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="flex justify-center py-3">
+    <nav className="flex justify-center py-3">
       {/* ${stickyClass} */}
       <div className={`flex items-center justify-between bg-slate-600 xl:w-[65vw] h-[5vh] rounded-3xl
       text-white text-xl `}>
@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
       </div>
 
-    </div>
+    </nav>
   )
 }
 

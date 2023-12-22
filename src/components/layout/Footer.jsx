@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import NetworkFooter from './NetworkFooter';
+import NetworkFooter from '../NetworkFooter';
 
 const Footer = () => {
 

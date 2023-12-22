@@ -29,7 +29,7 @@ const About = () => {
             <p>France, Lille</p>
           </div>
         </div>
-        <img src={pres} alt="" className="h-80 w-80" />
+        <img src={pres} alt="" className="sm:h-80 sm:w-80" />
         {/* <div className="flex w-[50%] justify-center">
         <img src={pres} alt="" className="h-80 w-80" />
         </div> */}

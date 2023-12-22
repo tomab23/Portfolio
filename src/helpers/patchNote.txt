@@ -1,4 +1,6 @@
 dernier ajout : 
+- navbar mobile version test
+
 - img skills opti en png
 - accessibilité update
 

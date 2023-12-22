@@ -2,7 +2,7 @@ import cv_img from "../assets/images/CV-tb.jpg"
 import { useTranslation } from 'react-i18next';
 import { Suspense } from 'react';
 import ButtonBack from '../components/buttons/ButtonBack';
-import Footer from '../components/Footer';
+import Footer from "../components/layout/Footer";
 
 const CvPage = () => {
 

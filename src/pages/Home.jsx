@@ -1,14 +1,19 @@
 import { useTranslation } from "react-i18next";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/layout/Navbar"
 import About from "../components/aboutMe/About";
 import ScrollToTop from "../components/ScrollToTop";
 import Skills from "../components/skills/Skills";
-import Footer from "../components/Footer";
+import Footer from "../components/layout/Footer";
 import Projects from "../components/projects/Projects";
 import ContactMe from "../components/contact/ContactMe";
 import CustomTitle from "../components/custom/CustomTitle";
 import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
 import Experiences from './../components/experiences/Experiences';
+import NavBarMobile from "../components/layout/NavBarMobile";
+import ChangeLanguageMobile from "../components/ChangeLanguageMobile";
+import DropdownLanguage from "../components/DropdownLanguage";
+import DarkModeMobile from "../components/DarkModeMobile";
+import DarkMode from "../components/DarkMode";
 
 
 const Home = () => {
@@ -21,7 +26,15 @@ const Home = () => {
   return (
     <div className="dark:bg-backApp-dark bg-backApp-light min-h-screen">
       <ButtonVersionInfo version={"Version 0.2.3"}/>
-      <Navbar />
+
+      {window.innerWidth > 900 ?  
+      <Navbar /> 
+      :
+      <div className="xs:pt-4 sm:pt-4">
+        <NavBarMobile />
+      </div>
+      }
+      
 
       {/* <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1> */}
       <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>{t('title')}</CustomTitle>
