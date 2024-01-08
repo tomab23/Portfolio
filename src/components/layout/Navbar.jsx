@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
 import DarkMode from "../DarkMode"
-import DropdownLanguage from "../DropdownLanguage";
 import { useTranslation } from "react-i18next";
+import ChangeLanguage from "../ChangeLanguage";
 
 const Navbar = () => {
 
@@ -46,7 +45,7 @@ const Navbar = () => {
         {/* PARAMS */}
         <div className=" flex justify-end items-center w-44 ">
            <DarkMode /> 
-           <DropdownLanguage />
+           <ChangeLanguage />
         </div>
       </div>
 

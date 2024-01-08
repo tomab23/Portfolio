@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import { ChevronDownIcon } from "lucide-react";
+import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next';
 import { Menu } from 'lucide-react';
 import { X } from 'lucide-react';
-import DropdownLanguage from '../DropdownLanguage';
-import ChangeLanguageMobile from '../ChangeLanguageMobile';
-import DarkModeMobile from '../DarkModeMobile';
+import DarkMode from '../DarkMode';
+import ChangeLanguage from '../ChangeLanguage';
 
 const MenuNavBarMobile = () => {
     const { t } = useTranslation();
@@ -71,8 +69,10 @@ const MenuNavBarMobile = () => {
             {item.label}
           </a>
         ))}
-        <ChangeLanguageMobile />
-        <DarkModeMobile/>
+        <ChangeLanguage mobile={true} />
+        <div className='flex justify-center'>
+        <DarkMode mobile={true}/>
+        </div>
       </div>
     )}
   </div>

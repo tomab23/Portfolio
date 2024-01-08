@@ -10,10 +10,6 @@ import CustomTitle from "../components/custom/CustomTitle";
 import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
 import Experiences from './../components/experiences/Experiences';
 import NavBarMobile from "../components/layout/NavBarMobile";
-import ChangeLanguageMobile from "../components/ChangeLanguageMobile";
-import DropdownLanguage from "../components/DropdownLanguage";
-import DarkModeMobile from "../components/DarkModeMobile";
-import DarkMode from "../components/DarkMode";
 
 
 const Home = () => {

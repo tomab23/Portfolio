@@ -1,7 +1,7 @@
 import { Moon, SunMoon } from "lucide-react";
 import { useEffect, useState } from "react";
 
-const DarkMode = () => {
+const DarkMode = ({mobile}) => {
 
   const [theme, setTheme] = useState(localStorage.getItem("darkmode") ? localStorage.getItem("darkmode") : "dark" );
 
@@ -17,14 +17,6 @@ const DarkMode = () => {
 
   }
 
-  // useEffect(() => {
-  //   if(window.matchMedia("(prefers-color-scheme: dark").matches) {
-  //       setTheme("dark");
-  //   } else {
-  //       setTheme("dark");
-  //   }
-  // }, [])
-
   useEffect(() => {
     if(theme === "dark") {
         document.documentElement.classList.add("dark");
@@ -38,8 +30,18 @@ const DarkMode = () => {
 
   return (
     <div>
-      {theme === "dark" && <SunMoon onClick={themeSwitch}  color="white" className="cursor-pointer" />}
-      {theme === "light" && <Moon onClick={themeSwitch}  color="white" className="cursor-pointer"  />}
+      {!mobile ? (
+       <div>
+         {theme === "dark" && <SunMoon onClick={themeSwitch}  color="white" className="cursor-pointer" />}
+        {theme === "light" && <Moon onClick={themeSwitch}  color="white" className="cursor-pointer"  />}
+       </div>
+      ) : (
+        <div className='flex justify-end items-center px-5 gap-2 py-4'>
+        <SunMoon onClick={themeSwitch}  color={theme === "dark" ? "gray" : "black"} className="cursor-pointer" />
+        <p className='font-bold'>|</p>
+        <Moon onClick={themeSwitch}  color={theme === "light" ? "gray" : "black"} className="cursor-pointer"  />
+      </div>
+      )}
     </div>
   );
 };
