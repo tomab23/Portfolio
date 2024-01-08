@@ -9,17 +9,10 @@ const Footer = () => {
   return (
     <div className='flex flex-col mt-10'>
       <div className='border border-slate-800 dark:border-white w-[65%] self-center'></div>
-      <div className='flex justify-around p-2 dark:text-white text-slate-800'>
+      <div className='flex justify-around p-2 dark:text-white text-slate-800
+      max-sm:flex-col-reverse max-sm:items-center max-sm:gap-5 max-sm:mt-2 max-lg:pb-20'>
         <p className='font-semibold'>{t("footer")}</p>
-        {/* <div className='flex gap-5'>
-            <a href="https://twitter.com/toma_23_" className='cursor-pointer hover:underline'>Twitter</a>
-            <a href="https://github.com/tomab23" className='cursor-pointer hover:underline'>Github</a>
-            <a href="https://www.linkedin.com/in/thomas-bartier-185752138/" className='cursor-pointer hover:underline'>LinkedIn</a>
-        </div> */}
-
-        <div>
-          <NetworkFooter />
-        </div>
+        <NetworkFooter />
       </div>
     </div>
   )
