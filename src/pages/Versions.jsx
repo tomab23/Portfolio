@@ -11,6 +11,7 @@ import Version_0_2_1 from "../versions/Version_0_2_1";
 import Version_0_2_2 from "../versions/Version_0_2_2";
 import Version_0_5 from "../versions/Version_0_5";
 import Version_0_2_3 from "../versions/Version_0_2_3";
+import Version_0_2_4 from "../versions/Version_0_2_4";
 
 const Versions = () => {
   const { t } = useTranslation();
@@ -37,8 +38,8 @@ const Versions = () => {
       <div className="xs:px-12 sm:px-20 mt-10">
         <div>
           <h2>{t("release.current")} :</h2>
-          <ReleaseNote version={"version 0.2.3"}>
-          <Version_0_2_3/>
+          <ReleaseNote version={"version 0.2.4"}>
+          <Version_0_2_4/>
           </ReleaseNote>
         </div>
 
@@ -62,6 +63,9 @@ const Versions = () => {
         {/* Past release note */}
         <div>
         <h2  id='past'>{t("release.old")} :</h2>
+        <ReleaseNote version={"version 0.2.3"}>
+          <Version_0_2_3/>
+          </ReleaseNote>
         <ReleaseNote version={"version 0.2.2"}>
           <Version_0_2_2/>
           </ReleaseNote>

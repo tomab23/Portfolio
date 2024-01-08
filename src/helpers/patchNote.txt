@@ -4,6 +4,10 @@ dernier ajout :
 - img skills opti en png
 - accessibilité update
 
+=> 0.2.4 =>
+Modification de la barre de navigation sur téléphone mobile
+
+
 
 TODO:
 - mettre en place bg-color dans tailwind config
