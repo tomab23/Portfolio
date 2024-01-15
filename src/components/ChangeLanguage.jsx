@@ -92,7 +92,7 @@ const ChangeLanguage = ({mobile}) => {
       </div>
   ) : (
     // Mobile choice for language
-    <div className='flex gap-10 py-5 px-4'>
+    <div className='flex gap-10 py-5 px-4 text-white'>
     <div>
         <h1>{isoToEmoji(traduction)}</h1>
     </div>

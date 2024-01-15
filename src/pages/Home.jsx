@@ -20,8 +20,8 @@ const Home = () => {
 
 
   return (
-    <div className="dark:bg-backApp-dark bg-backApp-light min-h-screen">
-      <ButtonVersionInfo version={"Version 0.2.4"}/>
+    <div className="dark:bg-dark bg-light min-h-screen">
+      <ButtonVersionInfo version={"Version 0.2.5"}/>
 
       {window.innerWidth > 900 ?  
       <Navbar /> 
@@ -37,7 +37,7 @@ const Home = () => {
       
 
       <p className="dark:text-white text-center mb-5 italic">📱 {t("phone")} 📱</p>
-      <p className="dark:text-white text-center mb-5 italic">⚠️ {t("alert")} ⚠️</p>
+      <p className="dark:text-white text-center mb-5 italic max-sm:px-2">⚠️ {t("alert")} ⚠️</p>
 
 
       <ScrollToTop/>

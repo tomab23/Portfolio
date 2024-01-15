@@ -14,7 +14,7 @@ import mysql from "../../assets/images/stack/mysql-logo.svg"
 
 const ListOfSkills = () => {
   return (
-    <div className="flex flex-wrap justify-start gap-5"> 
+    <div className="flex flex-wrap xs:justify-center sm:justify-start gap-5"> 
     {/* px-10 ?? */}
     <Suspense>
     <CardSkill name={"React"} title={"React"} color={"text-[#61dbfb]"}>

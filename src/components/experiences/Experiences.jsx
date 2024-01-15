@@ -7,7 +7,7 @@ const Experiences = () => {
   const { t } = useTranslation();
 
   return (
-    <div id="exp" className="w-[65vw] flex flex-col justify-start gap-5 mt-10">
+    <div id="exp" className="xs:w-[80%] sm:w-[65vw] flex flex-col justify-start gap-5 mt-10">
       <CustomTitle classNamee={"text-3xl mt-5 "}>{t("navbar.exp")}</CustomTitle>
 
       <ol className="relative border-l border-gray-200 dark:border-gray-700 mt-10">

@@ -46,7 +46,7 @@ const ProjectPage = () => {
   const siteExist = project.site === "" ? false : true;
 
   return (
-    <div className="dark:bg-backApp-dark bg-backApp-light min-h-screen px-20 py-5 dark:text-white">
+    <div className="dark:bg-dark bg-light min-h-screen px-20 py-5 dark:text-white">
       <ButtonBack />
       <h1 className="text-center">Projet : {project.name}</h1>
 

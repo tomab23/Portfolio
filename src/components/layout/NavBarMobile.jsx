@@ -8,7 +8,7 @@ const NavBarMobile = () => {
   return (
     <header>
       <div
-        className="flex items-center justify-between bg-slate-600 mx-2 px-2 h-[5vh] rounded-3xl
+        className="flex items-center justify-between bg-dark-light mx-2 px-2 h-[5vh] rounded-3xl
     text-white text-sm"
       >
         <h2 className="cursor-default w-44 uppercase hover:scale-y-150">

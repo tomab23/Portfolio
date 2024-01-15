@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-center py-3">
       {/* ${stickyClass} */}
-      <div className={`flex items-center justify-between bg-slate-600 xl:w-[65vw] h-[5vh] rounded-3xl
+      <div className={`flex items-center justify-between bg-dark-light xl:w-[65vw] h-[5vh] rounded-3xl
       text-white text-xl `}>
         {/* NAME */}
         <div className="pl-5">

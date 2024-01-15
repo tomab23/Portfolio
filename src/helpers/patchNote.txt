@@ -3,17 +3,12 @@ dernier ajout :
 - img skills opti en png
 - accessibilité update
 
-=> 0.2.4 =>
-Modification de la barre de navigation sur téléphone mobile
+=> 0.2.6 ? =>
 
 
+TODO: 
 
-TODO:
-- mettre en place bg-color dans tailwind config
-
-- test avec png opti et svg , voir la dif de perf
-
-- Faire la page de projet (mettre les img en svg ??)
+- Faire la page de projet
 
 a ajouter ? : 
 

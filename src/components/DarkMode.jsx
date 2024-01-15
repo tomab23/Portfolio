@@ -37,9 +37,9 @@ const DarkMode = ({mobile}) => {
        </div>
       ) : (
         <div className='flex justify-end items-center px-5 gap-2 py-4'>
-        <SunMoon onClick={themeSwitch}  color={theme === "dark" ? "gray" : "black"} className="cursor-pointer" />
+        <SunMoon onClick={themeSwitch}  color={theme === "dark" ? "gray" : "white"} className="cursor-pointer" />
         <p className='font-bold'>|</p>
-        <Moon onClick={themeSwitch}  color={theme === "light" ? "gray" : "black"} className="cursor-pointer"  />
+        <Moon onClick={themeSwitch}  color={theme === "light" ? "gray" : "white"} className="cursor-pointer"  />
       </div>
       )}
     </div>

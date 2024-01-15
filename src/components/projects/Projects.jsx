@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="w-[65vw] flex flex-col justify-start items-start gap-5 mt-10"
+      className="xs:w-[80%] sm:w-[65vw] flex flex-col justify-start items-start gap-5 mt-10"
     >
       {/* <h1 className="uppercase text-slate-700 dark:text-white">{t('navbar.projects')}</h1> */}
       <CustomTitle className={"text-3xl mt-5 mb-10 self-start"}>
@@ -22,7 +22,7 @@ const Projects = () => {
       </CustomTitle>
 
 
-      <div className="flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-10 max-sm:justify-center">
         {localStorage.getItem("i18nextLng") === "en" ? (
           <>
             {ProjectsMockEn.map((project) => (

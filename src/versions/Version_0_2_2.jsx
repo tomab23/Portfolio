@@ -10,7 +10,7 @@ const Version_0_2_2 = () => {
         </div>
       ) : (
         <div>
-          <p>- Modification du bas de page, ajout d'icônes de réseaux sociaux </p>
+          <p>- Modification du pied de page, ajout d'icônes de réseaux sociaux </p>
           <p>- Page d'accueil, le bouton haut de page apparaît seulement si on descend vers le bas. </p>
         </div>
       )}

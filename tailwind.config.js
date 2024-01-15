@@ -17,9 +17,15 @@ export default {
     },
     extend: {
       colors: {
-        "backApp": {
-          "light": "#d1d5db",
-          "dark": "#334155"
+        "dark": {
+          light: "#475569",
+          DEFAULT: "#334158",
+          dark: "#1e293b"
+        },
+        "light": {
+          light: "",
+          DEFAULT: "#d1d5db",
+          dark: ""
         }
       },
     },

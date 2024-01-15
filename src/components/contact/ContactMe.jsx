@@ -10,7 +10,7 @@ const ContactMe = () => {
   return (
     <div
       id="contact"
-      className="w-[65vw] flex flex-col justify-start gap-5 mt-10"
+      className="xs:w-[80%] sm:w-[65vw] flex flex-col justify-start gap-5 mt-10"
     >
       {/* <h1 className='uppercase text-slate-700 dark:text-white'>Contact</h1> */}
       <CustomTitle className={"text-3xl mt-5 mb-10"}>Contact</CustomTitle>
@@ -82,7 +82,7 @@ const ContactMe = () => {
         </div>
         {/* <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button> */}
 
-        <div className="flex xs:flex-wrap-reverse xs:gap-5 justify-between items-center">
+        <div className="flex xs:flex-wrap-reverse xs:gap-5 justify-between max-sm:justify-center items-center">
           <ButtonSend />
           <div className="flex items-center gap-2">
             <Mail className="dark:text-gray-200" />
