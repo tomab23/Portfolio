@@ -4,9 +4,9 @@ import mockEn from "../../models/MockProjectEn.json";
 import mockFr from "../../models/MockProjects.json";
 import { useTranslation } from "react-i18next";
 import CustomTitle from "../custom/CustomTitle";
-import CardDeuxTest from "./CardDeuxTest";
 import { ProjectsMockFr } from '../../models/ProjectsMockFr';
 import { ProjectsMockEn } from "../../models/ProjectsMockEn";
+import CardProject from "./CardProject";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -26,23 +26,18 @@ const Projects = () => {
         {localStorage.getItem("i18nextLng") === "en" ? (
           <>
             {ProjectsMockEn.map((project) => (
-              <CardDeuxTest key={project.id} project={project} />
+              <CardProject key={project.id} project={project} />
             ))}
           </>
         ) : (
           <>
             {ProjectsMockFr.map((project) => (
-              <CardDeuxTest key={project.id} project={project} />
+              <CardProject key={project.id} project={project} />
             ))}
           </>
         )}
       </div>
 
-      {/* CARD V2 */}
-
-      {/* <div className="flex gap-10 mt-10">
-        <CardQuatre />
-      </div> */}
 
     </div>
   );

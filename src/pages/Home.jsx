@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import Navbar from "../components/layout/Navbar"
 import About from "../components/aboutMe/About";
-import ScrollToTop from "../components/ScrollToTop";
+import ScrollToTop from "../components/buttons/ScrollToTop";
 import Skills from "../components/skills/Skills";
 import Footer from "../components/layout/Footer";
 import Projects from "../components/projects/Projects";
@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="dark:bg-dark bg-light min-h-screen">
-      <ButtonVersionInfo version={"Version 0.2.6"}/>
+      <ButtonVersionInfo version={"Version 0.3"}/>
 
       {window.innerWidth > 900 ?  
       <Navbar /> 
@@ -31,8 +31,6 @@ const Home = () => {
       </div>
       }
       
-
-      {/* <h1 className="text-center dark:text-white text-slate-600 my-5">{t('title')}</h1> */}
       <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>{t('title')}</CustomTitle>
       
 

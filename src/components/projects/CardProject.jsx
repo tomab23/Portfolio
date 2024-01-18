@@ -4,7 +4,7 @@ import image from "../../assets/image.png"
 import BadgeTech from './BadgeTech';
 import { useTranslation } from 'react-i18next';
 
-const CardDeuxTest = ({ project }) => {
+const CardProject = ({ project }) => {
 
     const navigate = useNavigate();
     const { t } = useTranslation();
@@ -44,4 +44,4 @@ const CardDeuxTest = ({ project }) => {
       );
 }
 
-export default CardDeuxTest
+export default CardProject

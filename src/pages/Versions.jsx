@@ -2,7 +2,7 @@ import React from "react";
 import ButtonBack from "../components/buttons/ButtonBack";
 import { useTranslation } from "react-i18next";
 import ReleaseNote from "../components/alpha-beta/ReleaseNote";
-import ScrollToTop from "../components/ScrollToTop";
+import ScrollToTop from "../components/buttons/ScrollToTop";
 import Version_0_1 from "../versions/Version_0_1";
 import Version_0_4 from './../versions/Version_0_4';
 import Version_0_3 from "../versions/Version_0_3";
@@ -42,18 +42,14 @@ const Versions = () => {
       <div className="xs:px-8 sm:px-20 mt-10">
         <div>
           <h2>{t("release.current")} :</h2>
-          <ReleaseNote version={"version 0.2.6"}>
-          <Version_0_2_6/>
+          <ReleaseNote version={"version 0.3"}>
+            <Version_0_3/>
           </ReleaseNote>
         </div>
 
         {/* Futur release note */}
         <div className="my-20">
           <h2 id="futur">{t("release.future")} :</h2>
-
-          <ReleaseNote version={"version 0.3"}>
-            <Version_0_3/>
-          </ReleaseNote>
           <ReleaseNote version={"version 0.4"}>
             <Version_0_4/>
           </ReleaseNote>
@@ -71,6 +67,9 @@ const Versions = () => {
         {/* Past release note */}
         <div>
         <h2  id='past'>{t("release.old")} :</h2>
+        <ReleaseNote version={"version 0.2.6"}>
+          <Version_0_2_6/>
+          </ReleaseNote>
         <ReleaseNote version={"version 0.2.5"}>
           <Version_0_2_5/>
           </ReleaseNote>

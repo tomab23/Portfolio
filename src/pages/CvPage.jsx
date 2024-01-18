@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
 import ButtonBack from "../components/buttons/ButtonBack";
 import Footer from "../components/layout/Footer";
+import ButtonDownload from "../components/buttons/ButtonDownload";
+import ScrollToTop from "../components/buttons/ScrollToTop";
 
 const CvPage = () => {
   const { t } = useTranslation();
@@ -27,13 +29,11 @@ const CvPage = () => {
         </div>
       </Suspense>
 
-      {/* <div className="flex justify-center mt-10">
-        <button className="p-2 border border-dark-light dark:border-white dark:text-white rounded-lg">
-          <a href={"#"} download={"#"}>
-            {t("download") + " PDF"}
-          </a>
-        </button>
-      </div> */}
+      <ButtonDownload/>
+
+      <ScrollToTop/>
+
+
       <Footer />
     </div>
   );
