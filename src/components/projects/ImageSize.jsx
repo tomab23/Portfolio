@@ -18,7 +18,7 @@ const ImageSize = ({ img, open, setImgOpen }) => {
         <img
           src={img}
           alt={t("project.alt")}
-          className={window.innerWidth > 1000 ? "xl:h-72 cursor-pointer" : "xl:h-72" }
+          className={window.innerWidth > 1200 ? "xl:h-72 cursor-pointer" : "xl:h-72" }
           loading="lazy"
           onClick={() => imgOpen(open)}
         />

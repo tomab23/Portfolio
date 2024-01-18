@@ -1,4 +1,4 @@
-import cv_img from "../assets/images/CV-tb.jpg";
+import cv_img from "../assets/images/CV.jpg";
 import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
 import ButtonBack from "../components/buttons/ButtonBack";

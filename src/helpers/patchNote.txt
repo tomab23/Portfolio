@@ -1,10 +1,8 @@
 
-a faire 0.3 
-- mise a jour du cv
-- ajout de la version pdf francais
+a faire 0.4 
 
 Fais => 
-- bouton dl cv
+
 
 
 TODO: 
