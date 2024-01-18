@@ -32,5 +32,6 @@
     "old": "Anciennes versions"
   },
   "alert": "L'application est actuellement en beta, pour en savoir plus sur les versions, cliquer sur le numéro de version en haut a gauche",
-  "phone": "Pas encore optimisé pour mobile"
+  "phone": "Pas encore optimisé pour mobile",
+  "download": "Télécharger"
 }

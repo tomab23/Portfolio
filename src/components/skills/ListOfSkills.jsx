@@ -14,14 +14,14 @@ import mysql from "../../assets/images/stack/mysql-logo.svg"
 
 const ListOfSkills = () => {
   return (
-    <div className="flex flex-wrap xs:justify-center sm:justify-start gap-5"> 
+    <div className="flex flex-wrap xs:justify-center sm:justify-start xs:gap-3 sm:gap-4 lg:gap-5"> 
     {/* px-10 ?? */}
     <Suspense>
     <CardSkill name={"React"} title={"React"} color={"text-[#61dbfb]"}>
         <img src={reactIcon} alt="React logo" loading='lazy' />
     </CardSkill>
     <CardSkill title={"React native"}>
-        <img src={reactNative} alt="React native logo" className="w-[93%]" loading='lazy'  />
+        <img src={reactNative} alt="React native logo" className="sm:w-[93%]" loading='lazy'  />
     </CardSkill>
     <CardSkill name={"JavaScript"} title={"JavaScript"} color={"dark:text-[#f5dd1e] text-yellow-500"}>
         <img src={js} alt="JavaScript logo" loading='lazy' />
@@ -33,7 +33,7 @@ const ListOfSkills = () => {
         <img src={java} alt="Java logo" loading='lazy' />
     </CardSkill>
     <CardSkill name={"Spring boot"} title={"Spring boot"} color={"text-[#68be43]"} >
-        <img src={spring} alt="Spring boot logo" className='object-contain' loading='lazy' />
+        <img src={spring} alt="Spring boot logo" className='object-contain max-sm:w-[50%]' loading='lazy' />
     </CardSkill>
     <CardSkill title={"MySql"}>
         <img src={mysql} alt="MySql logo" loading='lazy' />

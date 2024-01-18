@@ -3,7 +3,11 @@ dernier ajout :
 - img skills opti en png
 - accessibilité update
 
-=> 0.2.6 ? =>
+a faire 0.3 =>
+
+
+
+
 
 
 TODO: 

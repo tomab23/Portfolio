@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="dark:bg-dark bg-light min-h-screen">
-      <ButtonVersionInfo version={"Version 0.2.5"}/>
+      <ButtonVersionInfo version={"Version 0.2.6"}/>
 
       {window.innerWidth > 900 ?  
       <Navbar /> 

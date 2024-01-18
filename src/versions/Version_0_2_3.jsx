@@ -5,13 +5,13 @@ const Version_0_2_3 = () => {
     <div>
       {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
-          <p>- Test version of projects </p>
-          <p>- responsive mobile release notes</p>
+          <p>- Test version of projects. </p>
+          <p>- responsive mobile release notes.</p>
         </div>
       ) : (
         <div>
-          <p>- Version test des projets </p>
-          <p>- Notes de versions responsive sur téléphone </p>
+          <p>- Version test des projets. </p>
+          <p>- Notes de versions responsive sur téléphone. </p>
         </div>
       )}
     </div>
