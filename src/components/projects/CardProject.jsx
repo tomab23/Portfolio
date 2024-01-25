@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react'
 import { useNavigate } from "react-router-dom";
-import image from "../../assets/image.png"
 import BadgeTech from './BadgeTech';
 import { useTranslation } from 'react-i18next';
 
@@ -16,6 +15,8 @@ const CardProject = ({ project }) => {
         },
       });
     };
+
+    const info = t("project.info") + " " + project.name;
 
     return (
         <div
@@ -36,7 +37,7 @@ const CardProject = ({ project }) => {
             ))}
           </div>
 
-          <button onClick={goProject} className="self-end rounded-lg py-1 px-2 bg-blue-600 cursor-pointer hover:scale-110 text-white mt-2">
+          <button title={info} onClick={goProject} className="self-end rounded-lg py-1 px-2 bg-blue-600 cursor-pointer hover:scale-110 text-white mt-2">
           {t("project.read")}
           </button>
         </div>

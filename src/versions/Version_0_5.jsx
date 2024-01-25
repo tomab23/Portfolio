@@ -5,11 +5,12 @@ const Version_0_5 = () => {
     <div>
       {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
-          <p>- Function contact.(send function)</p>
+          <p>- My experiences updated in French only for the moment.</p>
         </div>
       ) : (
         <div>
-          <p>- Contact fonctionnel.(fonction envoyer)</p>
+          
+          <p>- Mes expériences mises à jour en français.</p>
         </div>
       )}
     </div>

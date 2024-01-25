@@ -13,7 +13,8 @@
   },
   "project": {
     "read": "Voir plus",
-    "alt": "Image du projet"
+    "alt": "Image du projet",
+    "info": "Voir"
   },
   "contactme": {
     "firstname":"Votre prénom",

@@ -1,19 +1,21 @@
 import React from 'react'
 
 const Version_0_7 = () => {
-    return (
+  return (
+    <div>
+      {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
-          {localStorage.getItem("i18nextLng") === "en" ? (
-            <div>
-              <p>- Responsive application on all screen sizes.</p>
-            </div>
-          ) : (
-            <div>
-              <p>- Application adaptée à toutes les tailles d'écrans.</p>
-            </div>
-          )}
+          <p>- Full translation.(application + CV)</p>
+          <p>- Light mode finish.</p>
         </div>
-      );
+      ) : (
+        <div>
+          <p>- Traduction totale.(application + CV)</p>
+          <p>- Finition du mode lumineux.</p>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default Version_0_7
