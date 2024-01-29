@@ -5,6 +5,7 @@ import ScrollPage from "./helpers/ScrollPage"
 import ProjectPage from "./pages/ProjectPage"
 import Versions from "./pages/Versions"
 import { useEffect } from "react"
+import AllProjectsPage from "./pages/AllProjectsPage"
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/mon_cv" element={<CvPage />} />
         <Route path="/project/:name" element={<ProjectPage />} /> 
         <Route path="/versions" element={<Versions />} /> 
+        <Route path="/projects" element={<AllProjectsPage />} /> 
       </Routes>
       <ScrollPage />
     </BrowserRouter>

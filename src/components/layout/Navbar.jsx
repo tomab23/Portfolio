@@ -27,14 +27,15 @@ const Navbar = () => {
   return (
     <nav className="flex justify-center py-3">
       {/* ${stickyClass} */}
-      <div className={`flex items-center justify-between max-3xl:gap-10 bg-dark-light xl:w-[65vw] h-[5vh] rounded-3xl
-      text-white text-xl `}>
+      <div className={`flex items-center justify-between max-3xl:gap-10 bg-dark-light h-[5vh] rounded-3xl
+      text-white text-xl 
+      max-lg:w-[90vw] xl:w-[65vw]`}>
         {/* NAME */}
         <div className="pl-5">
             <h2 className="cursor-default 3xl:w-44 uppercase hover:scale-y-150">Thomas Bartier</h2>
         </div>
         {/* NAV */}
-        <div className="flex justify-center gap-10 text-lg">
+        <div className="flex justify-center gap-5 2xl:gap-10 3xl:gap-12 text-lg">
             <a href="#about" className="cursor-pointer hover:scale-105">{t('navbar.about')}</a>
             <a href="#skills" className="cursor-pointer hover:scale-105">{t('navbar.skills')}</a> 
             <a href="#projects" className="cursor-pointer hover:scale-105">{t('navbar.projects')}</a>

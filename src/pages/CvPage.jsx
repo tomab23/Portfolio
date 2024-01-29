@@ -11,7 +11,7 @@ const CvPage = () => {
 
   return (
     <div className="dark:bg-dark bg-light py-5">
-      <div className="flex items-center justify-between px-20 max-sm:px-5">
+      <div className="flex items-center justify-between px-5 lg:px-10 xl:px-20">
         <ButtonBack />
         <h1 className="dark:text-white text-slate-600 font-bold">
           {t("pagecv")}

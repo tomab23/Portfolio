@@ -3,11 +3,7 @@ a faire 0.4
 
 Fais => 
 
-0.3.1 =>
-- Corrections de l'orthographe. - Spelling corrections.
-- Modification couleur des badges de technologies.(Light mode) - Change the color of technology badges.(Light mode)
-- Indication ajoutée quand la souris est sur le bouton "voir plus" des cartes projets. - Indication added when the mouse is over the "see more" button on the project cards.
-- Retouche de la barre de navigation. - Navigation bar update.
+
 
 
 

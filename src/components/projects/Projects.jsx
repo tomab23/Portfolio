@@ -7,38 +7,32 @@ import CustomTitle from "../custom/CustomTitle";
 import { ProjectsMockFr } from '../../models/ProjectsMockFr';
 import { ProjectsMockEn } from "../../models/ProjectsMockEn";
 import CardProject from "./CardProject";
+import ButtonAllProjects from "../buttons/ButtonAllProjects";
 
 const Projects = () => {
   const { t } = useTranslation();
+
+  const mock = localStorage.getItem("i18nextLng") === "en" ? ProjectsMockEn : ProjectsMockFr;
 
   return (
     <div
       id="projects"
       className="xs:w-[80%] sm:w-[65vw] flex flex-col justify-start items-start gap-5 mt-10"
     >
-      {/* <h1 className="uppercase text-slate-700 dark:text-white">{t('navbar.projects')}</h1> */}
       <CustomTitle className={"text-3xl mt-5 mb-10 self-start"}>
         {t("navbar.projects")}
       </CustomTitle>
 
 
       <div className="flex flex-wrap gap-10 max-sm:justify-center">
-        {localStorage.getItem("i18nextLng") === "en" ? (
-          <>
-            {ProjectsMockEn.map((project) => (
+            {mock.map((project) => (
               <CardProject key={project.id} project={project} />
-            ))}
-          </>
-        ) : (
-          <>
-            {ProjectsMockFr.map((project) => (
-              <CardProject key={project.id} project={project} />
-            ))}
-          </>
-        )}
+            )).slice(-3).reverse()}
       </div>
 
-
+      {ProjectsMockFr.length > 3 && 
+      <ButtonAllProjects />
+      }
     </div>
   );
 };

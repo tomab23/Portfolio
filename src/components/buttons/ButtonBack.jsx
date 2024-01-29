@@ -16,7 +16,7 @@ const ButtonBack = ({ nav }) => {
 
   return (
     <>
-    <ChevronLeftCircle size={35} className='cursor-pointer hover:scale-125 dark:text-white text-slate-600 float-left'
+    <ChevronLeftCircle size={35} className='cursor-pointer hover:scale-125 dark:text-white text-dark float-left'
         onClick={goBack} />  
     </>
   )

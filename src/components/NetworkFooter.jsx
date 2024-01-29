@@ -2,7 +2,6 @@ import React from "react";
 import { Github } from "lucide-react";
 import { Linkedin } from "lucide-react";
 import { Twitter } from "lucide-react";
-import xlogo from "../assets/network/x-twitter.svg"
 
 const NetworkFooter = () => {
   return (
@@ -23,15 +22,14 @@ const NetworkFooter = () => {
       >
         <Linkedin/>
       </a>
-      <a
+      {/* <a
         href="https://twitter.com/toma_23_"
         title="X"
         target="_blank"
         className="cursor-pointer hover:scale-110"
       >
         <Twitter/>
-        {/* <img src={xlogo} alt="X twiiter logo" className="h-5 w-5 dark:bg-white" /> */}
-      </a>
+      </a> */}
     </div>
   );
 };

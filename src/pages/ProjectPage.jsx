@@ -55,7 +55,7 @@ const ProjectPage = () => {
   };
 
   return (
-    <div className="dark:bg-dark bg-light min-h-screen max-sm:px-4 max-lg:px-8 px-20 pt-5 pb-10 dark:text-white">
+    <div className="dark:bg-dark bg-light min-h-screen px-5 lg:px-10 xl:px-20 pt-5 pb-10 dark:text-white">
       {/* Img open */}
       {open && window.innerWidth > 1200 && (
         <OpenImage handleOpenImage={handleOpenImage} imgOpen={imgOpen} />

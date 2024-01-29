@@ -14,7 +14,9 @@
   "project": {
     "read": "Voir plus",
     "alt": "Image du projet",
-    "info": "Voir"
+    "info": "Voir",
+    "button": "Voir tous mes projets",
+    "title": "Mes projets"
   },
   "contactme": {
     "firstname":"Votre prénom",

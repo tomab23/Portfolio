@@ -43,5 +43,29 @@ export const ProjectsMockFr = [
         github: "https://www.google.com/",
         site: "",
         imgs: [img6, img7]
-    }
+    },
+    {
+        id: 4,
+        name: "test_4",
+        resume: "bienvenue sur le projet 4",
+        img: img1,
+        tech: ["React", "Java", "MySql"],
+        description: "Description du projet 4",
+        date: "2023",
+        github: "https://www.google.com/",
+        site: "",
+        imgs: [img1, img2, img3]
+    },
+    {
+        id: 5,
+        name: "test_5",
+        resume: "bienvenue sur le projet 4",
+        img: img4,
+        tech: ["React", "Java", "MySql"],
+        description: "Description du projet 4",
+        date: "2023",
+        github: "https://www.google.com/",
+        site: "https://www.google.com/",
+        imgs: [img4, img5]
+    },
   ];
