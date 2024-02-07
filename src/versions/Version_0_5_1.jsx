@@ -1,19 +1,19 @@
 import React from "react";
 
-const Version_0_4_1 = () => {
+const Version_0_5_1 = () => {
   return (
     <div>
       {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
-          <p>- Add this portfolio to the application..</p>
+          <p>- Visual retouching on project cards.</p>
         </div>
       ) : (
         <div>
-          <p>- Ajout de ce portfolio sur l'application.</p>
+          <p>- Retouches visuelles sur les cartes de projet.</p>
         </div>
       )}
     </div>
   );
-};
+}; 
 
-export default Version_0_4_1;
+export default Version_0_5_1;

@@ -19,8 +19,11 @@ import Version_0_7 from './../versions/Version_0_7';
 import Version_0_3_1 from "../versions/Version_0_3_1";
 import Version_0_8 from "../versions/Version_0_8";
 import Version_0_9 from "../versions/Version_0_9";
-import Version_0_4_1 from "../versions/Version_0_4_1";
-import Version_0_4_2 from "../versions/Version_0_4_2";
+import Version_0_4_1 from "../versions/Version_0_5_1";
+import Version_0_4_2 from "../versions/Version_0_5_2";
+import Version_0_5_1 from "../versions/Version_0_5_1";
+import Version_0_5_2 from "../versions/Version_0_5_2";
+import Version_0_5_3 from "../versions/Version_0_5_3";
 
 const Versions = () => {
   const { t } = useTranslation();
@@ -47,22 +50,22 @@ const Versions = () => {
       <div className="xs:px-8 sm:px-20 mt-10 max-sm:text-sm">
         <div>
           <h2>{t("release.current")} :</h2>
-          <ReleaseNote version={"version 0.4"}>
-            <Version_0_4/>
+          <ReleaseNote version={"version 0.5"}>
+            <Version_0_5/>
           </ReleaseNote>
         </div>
 
         {/* Futur release note */}
         <div className="my-20">
           <h2 id="futur">{t("release.future")} :</h2>
-          <ReleaseNote version={"version 0.4.1"}>
-            <Version_0_4_1/>
+          <ReleaseNote version={"version 0.5.1"}>
+            <Version_0_5_1/>
           </ReleaseNote>
-          <ReleaseNote version={"version 0.4.2"}>
-            <Version_0_4_2/>
+          <ReleaseNote version={"version 0.5.2"}>
+            <Version_0_5_2/>
           </ReleaseNote>
-          <ReleaseNote version={"version 0.5"}>
-            <Version_0_5/>
+          <ReleaseNote version={"version 0.5.3"}>
+            <Version_0_5_3/>
           </ReleaseNote>
           <ReleaseNote version={"version 0.6"}>
             <Version_0_6/>
@@ -73,11 +76,17 @@ const Versions = () => {
           <ReleaseNote version={"version 0.8"}>
             <Version_0_8/>
           </ReleaseNote>
+          <ReleaseNote version={"version 0.9"}>
+            <Version_0_9/>
+          </ReleaseNote>
         </div>
 
         {/* Past release note */}
         <div>
         <h2  id='past'>{t("release.old")} :</h2>
+        <ReleaseNote version={"version 0.4"}>
+            <Version_0_4/>
+          </ReleaseNote>
         <ReleaseNote version={"version 0.3.1"}>
             <Version_0_3_1/>
           </ReleaseNote>

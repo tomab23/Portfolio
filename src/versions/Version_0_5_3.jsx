@@ -1,19 +1,19 @@
 import React from "react";
 
-const Version_0_9 = () => {
+const Version_0_5_3 = () => {
   return (
     <div>
       {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
-          <p>- Accessibility and performance.</p>
+          <p>- Add my qualifications.</p>
         </div>
       ) : (
         <div>
-          <p>- Accessibilité et performance.</p>
+          <p>- Ajout de mes diplômes.</p>
         </div>
       )}
     </div>
   );
 };
 
-export default Version_0_9;
+export default Version_0_5_3;
