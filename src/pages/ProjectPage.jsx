@@ -21,8 +21,11 @@ const ProjectPage = () => {
     id: null,
     name: "",
     resume: "",
+    badge: [],
     tech: [],
+    outil:[],
     description: "",
+    more: "",
     date: "",
     github: "",
     site: "",
@@ -46,6 +49,7 @@ const ProjectPage = () => {
   }, []);
 
   const siteExist = project.site === "" ? false : true;
+  const moreDescription = project.more === "" ? false : true;
 
   const [open, setOpen] = useState(false);
   const [imgOpen, setImgOpen] = useState();
@@ -62,18 +66,31 @@ const ProjectPage = () => {
       )}
       <div>
         <ButtonBack />
-        <h1 className="text-center">Projet : {project.name}</h1>
+        <h1 className="text-center uppercase">{project.name}</h1>
       </div>
       <main className="mt-10">
         <h6>{project.date}</h6>
 
-        <h6 className="my-2">Description : {project.description}</h6>
-
-        <div className="flex gap-1">
+        <div className="flex flex-wrap gap-2 mt-3">
           {project.tech?.map((tech) => (
             <BadgeTech key={tech} tech={tech} />
           ))}
         </div>
+
+        <h6 className="mt-5 w-[70vw]">{project.description}</h6>
+
+        {project.more &&
+        <h6 className="mt-5 w-[70vw]">{project.more}</h6>
+        }
+
+        {project.outil.length > 0 &&
+        <div className="mt-5">
+          <h6>Outils utilisés : </h6>
+          {project.outil?.map((outil) => (
+            <p before="• " className="before:content-[attr(before)]">{outil}</p>
+          ))}
+        </div>
+        }
 
         <Suspense>
           <LinksProject

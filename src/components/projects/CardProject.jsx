@@ -29,10 +29,10 @@ const CardProject = ({ project }) => {
         </div>
         <div className="p-3 flex flex-col justify-center items-start">
           <h1 className='dark:text-gray-50'>{project.name}</h1>
-          <p className='dark:text-gray-200'>{project.resume}</p>
+          <p className='dark:text-gray-200 my-1'>{project.resume}</p>
 
-          <div className='flex gap-1 mt-1'>
-            {project.tech.map((tech) => (
+          <div className='flex flex-wrap gap-1 my-1'>
+            {project.badge.map((tech) => (
               <BadgeTech key={tech} tech={tech} />
             ))}
           </div>
