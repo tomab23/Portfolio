@@ -25,9 +25,10 @@ const InfoExp = ({ children, date, title, latest }) => {
         <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
           {date}
         </time>
-        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-200">
+        <div className="mb-4 text-base font-normal text-gray-500 dark:text-gray-200">
           {children}
-        </p>
+        </div>
+
       </div>
   );
 };
