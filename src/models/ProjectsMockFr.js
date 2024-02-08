@@ -1,18 +1,29 @@
+import treizzer from "../assets/projects/Treizzer/tzr_accueil.png"
+import treizzerSong from "../assets/projects/Treizzer/tzr_song.png"
+import treizzerAlbum from "../assets/projects/Treizzer/tzr_album.png"
+import treizzerDetail from "../assets/projects/Treizzer/tzr_albumDetail.png"
+import treizzerShop from "../assets/projects/Treizzer/tzr_shop.png"
+import pokedexHome from "../assets/projects/Pokedex/pokedex_home.png"
+import pokedex from "../assets/projects/Pokedex/pokedex_pokemon.png"
+import marioPizza from "../assets/projects/MarioPizza/MarioPizza_img.png"
+import financeOpen from "../assets/projects/SoftwareBusiness/FinanceOpen.png"
+import finance from "../assets/projects/SoftwareBusiness/Finance.png"
+import financeCreation from "../assets/projects/SoftwareBusiness/Creation.png"
+import financeLogin from "../assets/projects/SoftwareBusiness/PageLogin.png"
+import codrive from "../assets/projects/CoDrive/Codrive.png"
+import codriveAdmin from "../assets/projects/CoDrive/admin.png"
+import dodgeThem from "../assets/projects/DodgeThemGame/dtg_img.png"
+import portfolio from "../assets/projects/Portfolio/ImagePortfolio.png"
+import portfolio2 from "../assets/projects/Portfolio/ImagePortfolio2.png"
+import portfolio3 from "../assets/projects/Portfolio/ImagePortfolio3.png"
 
-import img1 from "../assets/test/un.jpg"
-import img2 from "../assets/test/deux.jpg"
-import img3 from "../assets/test/trois.png"
-import img4 from "../assets/test/john.png"
-import img5 from "../assets/test/image.png"
-import img6 from "../assets/test/six.jpg"
-import img7 from "../assets/test/sept.jpg"
+
 
 export const ProjectsMockFr = [
     {
         id: 1,
         name: "Treizzer",
         resume: "Premier projet réalisé",
-        img: img1,
         badge: ["HTML", "CSS", "Javascript"],
         tech: ["HTML", "CSS", "Javascript"],
         outil:["Miro", "GitHub", "Visual Studio Code"],
@@ -21,13 +32,12 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/TreizzerApp",
         site: "",
-        imgs: [img1, img2, img3]
+        imgs: [treizzer, treizzerAlbum, treizzerDetail, treizzerSong, treizzerShop]
     },
     {
         id: 2,
         name: "Pokedex",
         resume: "Découverte de React js",
-        img: img4,
         badge: ["React js", "Java", "MySql"],
         tech: ["React js", "Typescript", "Java", "Spring boot", "MySql"],
         outil:["Visual Studio Code", "Eclipse", "Dbeaver"],
@@ -36,13 +46,12 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/PokemonPokedex",
         site: "https://pokedex-app-532e3.web.app",
-        imgs: [img4, img5]
+        imgs: [pokedexHome, pokedex]
     },
     {
         id: 3,
         name: "Mario Pizza",
         resume: "Application mobile",
-        img: img4,
         badge: ["React Native", "Java", "MySql"],
         tech: ["React Native", "Expo", "Typescript", "Java", "Spring boot", "MySql"],
         outil:["Trello", "Figma", "Postman", "Dbeaver", "Eclipse", "Visual Studio Code"],
@@ -51,13 +60,12 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/AppPizza",
         site: "",
-        imgs: [img4, img5]
+        imgs: [marioPizza]
     },
     {
         id: 4,
         name: "Business software",
         resume: "Application de stage",
-        img: img6,
         badge: ["React js", "Java", "MySql"],
         tech: ["React js", "Typescript", "Material UI", "Java", "Spring boot", "Maven", "MySql", "Formik", "Yup", "I18Next"],
         outil:["Github", "Trello", "Miro", "Discord", "Lucidchart", "Postman", "Dbeaver", "Eclipse", "Visual Studio Code"],
@@ -66,13 +74,12 @@ export const ProjectsMockFr = [
         date: "2023",
         github: "https://github.com/tomab23/StageCDA",
         site: "",
-        imgs: [img6, img7]
+        imgs: [financeOpen, finance, financeCreation, financeLogin]
     },
     {
         id: 5,
         name: "CoDrive",
         resume: "Application de covoiturage",
-        img: img1,
         badge: ["HTML", "CSS", "Javascript"],
         tech: ["React js", "Javascript", "Tailwindcss", "Redux", "Java", "Spring boot", "Maven", "Lombok", "Mapstruct", "Formik", "Yup"],
         outil:["Github", "Jira", "Discord", "Postman", "Dbeaver", "IntelliJ", "Visual Studio Code"],
@@ -81,13 +88,12 @@ export const ProjectsMockFr = [
         date: "2023",
         github: "https://github.com/tomab23/CoDrive",
         site: "",
-        imgs: [img1, img2, img3]
+        imgs: [codrive, codriveAdmin]
     },
     {
         id: 6,
         name: "Dodge them game",
         resume: "Premier jeu fais avec Godot",
-        img: img4,
         badge: ["GDScript"],
         tech: ["GDScript"],
         outil:["Godot"],
@@ -96,13 +102,12 @@ export const ProjectsMockFr = [
         date: "2024",
         github: "https://github.com/tomab23/DodgeThemGame",
         site: "",
-        imgs: [img4, img5]
+        imgs: [dodgeThem]
     },
     {
         id: 7,
         name: "Portfolio",
         resume: "Plus d'informations sur se portfolio",
-        img: img4,
         badge: ["React js", "Tailwind", "Javascript"],
         tech: ["React js", "Tailwindcss", "Javascript", "I18Next"],
         outil:["Visual Studio Code"],
@@ -111,6 +116,6 @@ export const ProjectsMockFr = [
         date: "2023 - 2024",
         github: "https://github.com/tomab23/Portfolio",
         site: "https://thomas-bartier.netlify.app/",
-        imgs: [img4, img5]
+        imgs: [portfolio, portfolio2]
     },
   ];

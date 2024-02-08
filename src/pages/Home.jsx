@@ -34,7 +34,7 @@ const Home = () => {
       <CustomTitle className={"text-center text-4xl mt-5 mb-10"}>{t('title')}</CustomTitle>
       
 
-      <p className="dark:text-white text-center mb-5 italic">📱 {t("phone")} 📱</p>
+      {/* <p className="dark:text-white text-center mb-5 italic">📱 {t("phone")} 📱</p> */}
       <p className="dark:text-white text-center mb-5 italic max-sm:px-2">⚠️ {t("alert")} ⚠️</p>
 
 

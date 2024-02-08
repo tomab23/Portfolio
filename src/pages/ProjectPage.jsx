@@ -59,14 +59,14 @@ const ProjectPage = () => {
   };
 
   return (
-    <div className="dark:bg-dark bg-light min-h-screen px-5 lg:px-10 xl:px-20 pt-5 pb-10 dark:text-white">
+    <div className="dark:bg-dark bg-light min-h-screen px-5 lg:px-10 xl:px-20 pt-5 pb-20 dark:text-white">
       {/* Img open */}
       {open && window.innerWidth > 1200 && (
         <OpenImage handleOpenImage={handleOpenImage} imgOpen={imgOpen} />
       )}
       <div>
         <ButtonBack />
-        <h1 className="text-center uppercase">{project.name}</h1>
+        <h1 className="text-center uppercase max-sm:mr-5">{project.name}</h1>
       </div>
       <main className="mt-10">
         <h6>{project.date}</h6>
@@ -77,10 +77,10 @@ const ProjectPage = () => {
           ))}
         </div>
 
-        <h6 className="mt-5 w-[70vw]">{project.description}</h6>
+        <h6 className="mt-5 max-sm:w-[90vw] w-[70vw]">{project.description}</h6>
 
         {project.more &&
-        <h6 className="mt-5 w-[70vw]">{project.more}</h6>
+        <h6 className="mt-5 max-sm:w-[90vw] w-[70vw]">{project.more}</h6>
         }
 
         {project.outil.length > 0 &&
@@ -100,7 +100,7 @@ const ProjectPage = () => {
           />
         </Suspense>
 
-        <div className="flex flex-wrap gap-1 mt-10">
+        <div className="flex flex-wrap max-lg:gap-3 gap-10 mt-10">
           {project.imgs?.map((img) => (
             <ImageSize
               key={img}

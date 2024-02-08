@@ -20,11 +20,11 @@ const CardProject = ({ project }) => {
 
     return (
         <div
-        className="border border-black rounded-lg w-72"
+        className="border border-black rounded-lg w-72 hover:rotate-2 shadow-xl"
       >
-        <div>
+        <div className='flex justify-center'>
           <Suspense>
-          <img src={project.img} alt="" className="rounded-t-lg" />
+          <img src={project.imgs[0]} alt="Image du projet" className="rounded-t-lg h-[10rem]"  />
           </Suspense>
         </div>
         <div className="p-3 flex flex-col justify-center items-start">

@@ -10,7 +10,7 @@ const LinksProject = ({ github, site, siteUrl }) => {
   };
 
   return (
-    <div className="flex gap-1 mt-5">
+    <div className="flex gap-2 mt-5">
       <div
         className="w-24 h-10 rounded-full bg-[#171515] flex justify-center items-center cursor-pointer hover:scale-110"
         onClick={handleGithub}

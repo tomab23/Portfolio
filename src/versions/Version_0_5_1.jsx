@@ -5,15 +5,17 @@ const Version_0_5_1 = () => {
     <div>
       {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
-          <p>- Visual retouching on project cards.</p>
+          <p>- Add a 404 page.</p>
+          <p>- Fixing routes causing problems with netlify.</p>
         </div>
       ) : (
         <div>
-          <p>- Retouches visuelles sur les cartes de projet.</p>
+          <p>- Ajout d'une page 404.</p>
+          <p>- Correction des routes causant un probleme avec netlify.</p>
         </div>
       )}
     </div>
   );
-}; 
+};
 
 export default Version_0_5_1;

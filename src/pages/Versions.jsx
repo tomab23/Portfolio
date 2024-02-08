@@ -19,11 +19,9 @@ import Version_0_7 from './../versions/Version_0_7';
 import Version_0_3_1 from "../versions/Version_0_3_1";
 import Version_0_8 from "../versions/Version_0_8";
 import Version_0_9 from "../versions/Version_0_9";
-import Version_0_4_1 from "../versions/Version_0_5_1";
-import Version_0_4_2 from "../versions/Version_0_5_2";
 import Version_0_5_1 from "../versions/Version_0_5_1";
 import Version_0_5_2 from "../versions/Version_0_5_2";
-import Version_0_5_3 from "../versions/Version_0_5_3";
+
 
 const Versions = () => {
   const { t } = useTranslation();
@@ -63,9 +61,6 @@ const Versions = () => {
           </ReleaseNote>
           <ReleaseNote version={"version 0.5.2"}>
             <Version_0_5_2/>
-          </ReleaseNote>
-          <ReleaseNote version={"version 0.5.3"}>
-            <Version_0_5_3/>
           </ReleaseNote>
           <ReleaseNote version={"version 0.6"}>
             <Version_0_6/>
