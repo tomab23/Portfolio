@@ -12,6 +12,7 @@
     "title": "Développeur fullstack"
   },
   "project": {
+    "home": "Derniers projets",
     "read": "Voir plus",
     "alt": "Image du projet",
     "info": "Voir",
@@ -33,6 +34,10 @@
     "future": "Versions à venir",
     "current": "Version actuelle",
     "old": "Anciennes versions"
+  },
+  "error": {
+    "404": "Page introuvable",
+    "button": "Retourner sur l'application"
   },
   "alert": "L'application est actuellement en beta, pour en savoir plus sur les versions, cliquer sur le numéro de version en haut a gauche",
   "phone": "Pas encore optimisé pour mobile",

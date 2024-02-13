@@ -10,13 +10,14 @@ import CustomTitle from "../components/custom/CustomTitle";
 import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
 import Experiences from './../components/experiences/Experiences';
 import NavBarMobile from "../components/layout/NavBarMobile";
+import { useNavigate } from "react-router-dom";
 
 
 const Home = () => {
 
     const { t } = useTranslation();
 
-    console.log("screen", screen.width, screen.height)
+    // console.log("screen", screen.width, screen.height)
 
 
   return (

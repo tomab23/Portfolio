@@ -15,7 +15,7 @@ const LinkAbout = () => {
   return (
     <div className="flex gap-2 text-center max-sm:px-1">
     <div className="w-24 h-10 rounded-full bg-dark-light flex justify-center items-center cursor-pointer hover:scale-110"
-    onClick={() => navigate("/mon_cv")}>
+    onClick={() => navigate("/cv")}>
         <p className="text-white">CV</p>
     </div>
     <div className="w-24 h-10 rounded-full bg-[#0e76a8] flex justify-center items-center cursor-pointer hover:scale-110"

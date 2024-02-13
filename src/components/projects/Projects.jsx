@@ -20,7 +20,7 @@ const Projects = () => {
       className="xs:w-[80%] sm:w-[65vw] flex flex-col justify-start items-start gap-5 mt-10"
     >
       <CustomTitle className={"text-3xl mt-5 mb-10 self-start"}>
-        {t("navbar.projects")}
+        {t("project.home")}
       </CustomTitle>
 
 

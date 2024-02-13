@@ -12,6 +12,7 @@
       "title": "Fullstack developer"
     },
     "project": {
+      "home": "Latest projects",
       "read": "Read more",
       "alt": "Image of the project",
       "info": "See",
@@ -33,6 +34,10 @@
       "future": "Future versions",
       "current": "Current version",
       "old": "Older versions"
+    },
+    "error": {
+      "404": "Page not found",
+      "button": "Back to the application"
     },
     "alert": "The app is currently in beta, to find out more about versions, click on the version number in the top left corner.",
     "phone": "Not yet optimised for mobile",

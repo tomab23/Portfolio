@@ -6,6 +6,7 @@ import ProjectPage from "./pages/ProjectPage"
 import Versions from "./pages/Versions"
 import { useEffect } from "react"
 import AllProjectsPage from "./pages/AllProjectsPage"
+import ErrorPage from "./pages/ErrorPage"
 
 
 
@@ -23,10 +24,11 @@ function App() {
     <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} /> 
-        <Route path="/mon_cv" element={<CvPage />} />
+        <Route path="/cv" element={<CvPage />} />
         <Route path="/project/:name" element={<ProjectPage />} /> 
         <Route path="/versions" element={<Versions />} /> 
         <Route path="/projects" element={<AllProjectsPage />} /> 
+        <Route path="*" element={<ErrorPage />} /> 
       </Routes>
       <ScrollPage />
     </BrowserRouter>

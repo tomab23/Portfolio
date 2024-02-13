@@ -15,9 +15,10 @@ const AllProjectsPage = () => {
 
   return (
     <div className='dark:bg-dark bg-light py-5 min-h-screen'>
-        <div className='flex xs:gap-2 sm:gap-5 items-center px-5 lg:px-10 xl:px-20'>
+        <div className='flex xs:gap-2 sm:gap-5 items-center px-5 lg:px-10 xl:px-20 dark:text-white text-dark font-bold'>
             <ButtonBack />
-            <h1 className='dark:text-white text-dark font-bold'>{t("project.title")}</h1>
+            <h1 className=''>{t("project.title")}</h1>
+            <h3 className='xl:text-xl'>({mock.length})</h3>
         </div>
         
         <div className="flex flex-wrap gap-10 justify-center py-10">
