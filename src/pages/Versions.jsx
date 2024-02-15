@@ -27,13 +27,13 @@ const Versions = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="dark:bg-dark bg-light min-h-screen px-5 lg:px-10 xl:px-20 py-5 dark:text-white">
-      <div className="flex gap-5 ml-2">
+    <div className="dark:bg-dark bg-light min-h-screen px-3 lg:px-10 xl:px-20 py-5 dark:text-white">
+      <div className="flex gap-5">
         <ButtonBack nav={true} />
         <h1 className="font-mono">{t("version")}</h1>
       </div>
 
-      <div className="xs:ml-8 sm:ml-20 mt-10 flex gap-5">
+      <div className="px-2 lg:px-10 xl:px-20 mt-10 flex gap-5">
         <a href="#futur" 
         className="cursor-pointer border border-dark-light dark:bg-dark-light p-1.5 rounded-lg dark:hover:bg-slate-900 hover:bg-slate-200">
           {t("release.future")}
@@ -45,7 +45,7 @@ const Versions = () => {
       </div>
 
       {/* Actual release note */}
-      <div className="xs:px-8 sm:px-20 mt-10 max-sm:text-sm">
+      <div className="px-3 lg:px-10 xl:px-20 mt-10 max-sm:text-sm">
         <div>
           <h2>{t("release.current")} :</h2>
           <ReleaseNote version={"version 0.5.2"}>

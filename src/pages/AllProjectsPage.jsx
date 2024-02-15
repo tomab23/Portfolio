@@ -14,7 +14,7 @@ const AllProjectsPage = () => {
 
 
   return (
-    <div className='dark:bg-dark bg-light py-5 min-h-screen'>
+    <div className='dark:bg-dark bg-light pt-5 pb-10 min-h-screen'>
         <div className='flex xs:gap-2 sm:gap-5 items-center px-5 lg:px-10 xl:px-20 dark:text-white text-dark font-bold'>
             <ButtonBack />
             <h1 className=''>{t("project.title")}</h1>
