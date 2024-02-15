@@ -33,13 +33,13 @@ export default {
           dark: "#15803d"
         },
         "skill" : {
-          "react": "#61dbfb",
-          "javascript": "#f5dd1e",
-          "typescript": "#0288d1",
-          "java": "#ff0000",
-          "spring": "#68be43",
-          "i18n": "#009688",
-          "tailwind": "#35bef8"
+          react: "#61dbfb",
+          javascript: "#f5dd1e",
+          typescript: "#0288d1",
+          java: "#ff0000",
+          spring: "#68be43",
+          i18n: "#009688",
+          tailwind: "#35bef8"
         }
       },
     },

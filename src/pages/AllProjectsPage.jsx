@@ -21,7 +21,7 @@ const AllProjectsPage = () => {
             <h3 className='xl:text-xl'>({mock.length})</h3>
         </div>
         
-        <div className="flex flex-wrap gap-10 justify-center py-10">
+        <div className="flex flex-wrap gap-10 justify-center py-10 mx-2">
             {mock.map((project) => (
               <CardProject key={project.id} project={project} />
             )).reverse()}
