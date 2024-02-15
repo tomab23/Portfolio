@@ -25,7 +25,8 @@
       "email": "Your email",
       "message": "Your message",
       "placeholder": "Enter your message here.",
-      "send": "Send"
+      "send": "Send",
+      "sending": "Sending..."
     },
     "totop": "Scroll to Top",
     "footer": "Developed by Thomas Bartier",
