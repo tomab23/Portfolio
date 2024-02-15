@@ -37,7 +37,8 @@ const MenuNavBarMobile = () => {
 
         {isOpen && (
           <div
-            className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-dark-light ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none text-gray-700"
+          // divide-y divide-gray-100 
+            className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-dark-light ring-1 ring-black ring-opacity-5 focus:outline-none text-gray-700"
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="menu-button"

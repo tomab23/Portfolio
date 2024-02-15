@@ -1,21 +1,6 @@
-0.5 
--Mise à jour des versions à venir. - Upcoming version updates.
-- Ajout de mes projets.(en français) -Add my projects (in French)
-- Ajout de mes expériences.(en français) -Add my experiences (in French)
-
-0.5.1
-- Retouche visuelle sur les cartes de projet. -Visual retouching on project cards.
-
-0.5.2
-- Ajout d'une page 404. -Add a 404 page.
-- Correction des routes causant un probleme avec netlify. -Fixing routes causing problems with netlify.
-
-0.5.3
-- Ajout de mes diplômes. -Add my qualifications.
 
 
-
-TODO: 
+TODO: ?
 
 - Faire la page de projet
 

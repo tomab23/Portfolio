@@ -10,7 +10,6 @@ import CustomTitle from "../components/custom/CustomTitle";
 import ButtonVersionInfo from "../components/alpha-beta/ButtonVersionInfo";
 import Experiences from './../components/experiences/Experiences';
 import NavBarMobile from "../components/layout/NavBarMobile";
-import { useNavigate } from "react-router-dom";
 
 
 const Home = () => {
@@ -22,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="dark:bg-dark bg-light min-h-screen">
-      <ButtonVersionInfo version={"Version 0.5.1"}/>
+      <ButtonVersionInfo version={"Version 0.5.2"}/>
 
       {window.innerWidth > 900 ?  
       <Navbar /> 

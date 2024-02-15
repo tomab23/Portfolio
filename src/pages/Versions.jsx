@@ -27,7 +27,7 @@ const Versions = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="dark:bg-dark bg-light min-h-screen xs:px-2 sm:px-20 py-5 dark:text-white">
+    <div className="dark:bg-dark bg-light min-h-screen px-5 lg:px-10 xl:px-20 py-5 dark:text-white">
       <div className="flex gap-5 ml-2">
         <ButtonBack nav={true} />
         <h1 className="font-mono">{t("version")}</h1>
@@ -48,17 +48,14 @@ const Versions = () => {
       <div className="xs:px-8 sm:px-20 mt-10 max-sm:text-sm">
         <div>
           <h2>{t("release.current")} :</h2>
-          <ReleaseNote version={"version 0.5.1"}>
-            <Version_0_5_1/>
+          <ReleaseNote version={"version 0.5.2"}>
+            <Version_0_5_2/>
           </ReleaseNote>
         </div>
 
         {/* Futur release note */}
         <div className="my-20">
           <h2 id="futur">{t("release.future")} :</h2>
-          <ReleaseNote version={"version 0.5.2"}>
-            <Version_0_5_2/>
-          </ReleaseNote>
           <ReleaseNote version={"version 0.6"}>
             <Version_0_6/>
           </ReleaseNote>
@@ -76,6 +73,9 @@ const Versions = () => {
         {/* Past release note */}
         <div>
         <h2  id='past'>{t("release.old")} :</h2>
+        <ReleaseNote version={"version 0.5.1"}>
+            <Version_0_5_1/>
+          </ReleaseNote>
         <ReleaseNote version={"version 0.5"}>
             <Version_0_5/>
           </ReleaseNote>
