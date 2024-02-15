@@ -17,39 +17,39 @@ const ListOfSkills = () => {
     <div className="flex flex-wrap xs:justify-center sm:justify-start xs:gap-3 sm:gap-4 lg:gap-5"> 
     {/* px-10 ?? */}
     <Suspense>
-    <CardSkill name={"React"} title={"React"} color={"text-[#61dbfb]"}>
+    <CardSkill name={"React"} title={"React"} type={"react"}>
         <img src={reactIcon} alt="React logo" loading='lazy' />
     </CardSkill>
     <CardSkill title={"React native"}>
         <img src={reactNative} alt="React native logo" className="sm:w-[93%]" loading='lazy'  />
     </CardSkill>
-    <CardSkill name={"JavaScript"} title={"JavaScript"} color={"dark:text-[#f5dd1e] text-yellow-500"}>
+    <CardSkill name={"JavaScript"} title={"JavaScript"} type={"javascript"}>
         <img src={js} alt="JavaScript logo" loading='lazy' />
     </CardSkill>
-    <CardSkill name={"TypeScript"} title={"TypeScript"} color={"text-[#0288d1]"}>
+    <CardSkill name={"TypeScript"} title={"TypeScript"} type={"typescript"}>
         <img src={ts} alt="TypeScript logo" loading='lazy' />
     </CardSkill>
-    <CardSkill name={"Java"} title={"Java"} color={"text-[#ff0000]"}>
+    <CardSkill name={"Java"} title={"Java"} type={"java"}>
         <img src={java} alt="Java logo" loading='lazy' />
     </CardSkill>
-    <CardSkill name={"Spring boot"} title={"Spring boot"} color={"text-[#68be43]"} >
+    <CardSkill name={"Spring boot"} title={"Spring boot"} type={"spring"}>
         <img src={spring} alt="Spring boot logo" className='object-contain max-sm:w-[50%]' loading='lazy' />
     </CardSkill>
     <CardSkill title={"MySql"}>
         <img src={mysql} alt="MySql logo" loading='lazy' />
     </CardSkill>
-    <CardSkill name={"i18next"} title={"i18next"} color={"text-[#009688]"}>
+    <CardSkill name={"i18next"} title={"i18next"} type={"i18n"}>
         <img src={i18n} alt="i18next logo" loading='lazy'
         // onClick={() => window.open("https://www.i18next.com/")}
         />
     </CardSkill>
-    <CardSkill name={"Tailwind"} title={"Tailwind"} color={"text-[#35bef8]"}>
+    <CardSkill name={"Tailwind"} title={"Tailwind"} type={"tailwind"}>
         <img src={tailwind} alt="Tailwind logo" loading='lazy' />
     </CardSkill>
     <CardSkill title={"Formik"}>
         <img src={formik} alt="Formik logo" loading='lazy' />
     </CardSkill>
-    <CardSkill title={"Approche agile Scrum"} color={"text-white"}>
+    <CardSkill title={"Approche agile Scrum"}>
         <img src={scrum} alt="Scrum image" loading='lazy' />
     </CardSkill>
     </Suspense>
