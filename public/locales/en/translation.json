@@ -26,7 +26,9 @@
       "message": "Your message",
       "placeholder": "Enter your message here.",
       "send": "Send",
-      "sending": "Sending..."
+      "sending": "Sending...",
+      "success": "Your message has been sent.",
+      "error": "Your message has not been sent."
     },
     "totop": "Scroll to Top",
     "footer": "Developed by Thomas Bartier",

@@ -7,9 +7,30 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 import emailjs from "@emailjs/browser";
 import FormContact from "./FormContact";
+import { Toaster, toast } from 'sonner'
+import { X } from 'lucide-react';
 
 const ContactMe = () => {
+  const { t } = useTranslation();
+
   const [loading, setLoading] = useState(false);
+
+
+  const toastSuccess = () => {
+    toast.success(t("contactme.success"), {
+      cancel: {
+        label: <X />
+      },
+    })
+  }
+
+  const toastCancel = () => {
+    toast.cancel(t("contactme.error"), {
+      cancel: {
+        label: <X />
+      },
+    })
+  }
 
   const ValidSchema = Yup.object().shape({
     firstname: Yup.string().required("Votre prénom est obligatoire"),
@@ -32,19 +53,19 @@ const ContactMe = () => {
     setLoading(true);
     emailjs
       .send(yourServiceId, yourTemplateId, values, yourPublicId)
-      .then((result) => {
-        console.log("result", result);
-        // notifyMailSend(); envoi ok notification
+      .then(() => {
+        toastSuccess();
         setLoading(false);
         resetForm();
       })
       .catch(() => {
-        // ErrorNotify(toastId); envoi error notification
+        toastCancel();
         setLoading(false);
-        console.log("error");
         resetForm();
       });
   };
+
+
 
   const formik = useFormik({
     initialValues: {
@@ -78,6 +99,7 @@ const ContactMe = () => {
             <p className="dark:text-gray-200">thomas.bartier59@gmail.com</p>
           </div>
         </div>
+        <Toaster position="bottom-left" richColors duration={2000} />
       </form>
     </div>
   );

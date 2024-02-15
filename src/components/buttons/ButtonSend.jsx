@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Mail } from "lucide-react";
 import LoaderCercle from "../loader/LoaderCercle";
+import { X } from 'lucide-react';
 
 const ButtonSend = ({ loading }) => {
   const { t } = useTranslation();
@@ -14,7 +14,8 @@ const ButtonSend = ({ loading }) => {
         disabled={!loading ? false : true}
       >
         <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-blue-600 group-hover:translate-x-0 ease">
-          <svg
+        {!loading ? 
+                  <svg
             className="w-6 h-6"
             fill="none"
             stroke="currentColor"
@@ -27,7 +28,9 @@ const ButtonSend = ({ loading }) => {
               strokeWidth="2"
               d="M14 5l7 7m0 0l-7 7m7-7H3"
             ></path>
-          </svg>
+          </svg> 
+          :
+          <X/>}
         </span>
         <span className="absolute flex items-center justify-center w-full h-full dark:text-white text-blue-600 transition-all duration-300 transform group-hover:translate-x-full ease">
           {!loading ? t("contactme.send") : t("contactme.sending")}
