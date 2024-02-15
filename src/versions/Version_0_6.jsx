@@ -13,7 +13,7 @@ const Version_0_6 = () => {
         <div>
           <p>- Contact fonctionnel.(fonction envoyer)</p>
           <p>- Notification après envoi du formulaire de contact.</p>
-          <p>- Correction du bouton "haut de page" qui passait en dessous du bouton envoyé pour le contact sur téléphone.</p>
+          <p>- Correction du bouton "haut de page" qui passait en dessous du bouton envoyer pour le contact sur téléphone.</p>
         </div>
       )}
     </div>

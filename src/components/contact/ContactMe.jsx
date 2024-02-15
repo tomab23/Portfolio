@@ -33,15 +33,15 @@ const ContactMe = () => {
   }
 
   const ValidSchema = Yup.object().shape({
-    firstname: Yup.string().required("Votre prénom est obligatoire"),
-    lastname: Yup.string().required("Votre nom est obligatoire"),
+    firstname: Yup.string().required(t("contactError.firstname")),
+    lastname: Yup.string().required(t("contactError.lastname")),
     mail: Yup.string()
-      .email("Adresse email invalide")
-      .required("Adresse email obligatoire"),
+      .email(t("contactError.valid"))
+      .required(t("contactError.mail")),
     message: Yup.string()
-      .min(10, "Votre message est trop court")
-      .max(500, "Votre message est trop long")
-      .required("Le message est obligatoire"),
+      .min(10, t("contactError.short"))
+      .max(800, t("contactError.long"))
+      .required(t("contactError.message")),
   });
 
   // Email parameters to contact us
@@ -99,7 +99,7 @@ const ContactMe = () => {
             <p className="dark:text-gray-200">thomas.bartier59@gmail.com</p>
           </div>
         </div>
-        <Toaster position="bottom-left" richColors duration={2000} />
+        <Toaster position="bottom-left" richColors duration={3000} className="max-sm:mb-20" />
       </form>
     </div>
   );

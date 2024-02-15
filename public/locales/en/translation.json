@@ -20,8 +20,8 @@
       "title": "My projects"
     },
     "contactme": {
-      "firstname":"Your firstname",
-      "lastname": "Your lastname",
+      "firstname":"Your first name",
+      "lastname": "Your last name",
       "email": "Your email",
       "message": "Your message",
       "placeholder": "Enter your message here.",
@@ -29,6 +29,15 @@
       "sending": "Sending...",
       "success": "Your message has been sent.",
       "error": "Your message has not been sent."
+    },
+    "contactError": {
+      "firstname": "Your first name is required",
+      "lastname": "Your last name is required",
+      "mail": "Email address required",
+      "valid": "Invalid email address",
+      "message": "Message is required",
+      "short": "Your message is too short",
+      "long": "Your message is too long"
     },
     "totop": "Scroll to Top",
     "footer": "Developed by Thomas Bartier",

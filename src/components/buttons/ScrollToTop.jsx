@@ -29,7 +29,7 @@ const ScrollToTop = () => {
     <div>
       {view &&
                 <button
-                className="fixed bottom-6 right-6 bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded shadow"
+                className="fixed z-50 bottom-6 right-6 bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded shadow"
                 // max-md:bottom-20
                 onClick={toTop}
               >

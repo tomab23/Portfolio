@@ -30,6 +30,15 @@
     "success": "Votre message à bien été envoyé.",
     "error": "Votre message n'a pas été envoyé."
   },
+  "contactError": {
+    "firstname": "Votre prénom est obligatoire",
+    "lastname": "Votre nom est obligatoire",
+    "mail": "Adresse email obligatoire",
+    "valid": "Adresse email invalide",
+    "message": "Le message est obligatoire",
+    "short": "Votre message est trop court",
+    "long": "Votre message est trop long"
+  },
   "totop": "Haut de page",
   "footer": "Développé par Thomas Bartier",
   "version": "Notes de versions",
