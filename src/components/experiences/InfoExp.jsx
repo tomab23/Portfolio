@@ -1,6 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const InfoExp = ({ children, date, title, latest }) => {
+
+  const { t } = useTranslation();
+
   return (
       <div className="mb-10 ml-6">
         <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-gray-300 dark:ring-slate-700 dark:bg-blue-900">
@@ -18,7 +22,7 @@ const InfoExp = ({ children, date, title, latest }) => {
           <p className="text-lg">{title}</p>
           {latest && (
             <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
-              Latest
+              {t("experience.latest")}
             </span>
           )}
         </div>

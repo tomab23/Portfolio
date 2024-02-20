@@ -51,6 +51,31 @@
     "404": "Page introuvable",
     "button": "Retourner sur l'application"
   },
+  "experience": {
+    "tech": "Technologies utilisées",
+    "latest": "Dernière",
+    "incubateur": {
+      "name": "Incubateur numérique",
+      "date": "Avril à Août 2023",
+      "resume": "Mise en situation professionnelle, travail sur une application de covoiturage.",
+      "job": "Développement fullstack sur la gestion des trajets, sur les réservations, sur la gestions des crédits et sur le formulaire de contact."
+    },
+    "stageCda": {
+      "name": "Stage",
+      "date": "9 Janvier 2023 au 3 Février 2023",
+      "resume": "Développement d’une application de gestion d'entreprise sécurisée.",
+      "job": "Travail sur la sécurité de l'application, connexion utilisateur, création, modification, suppression et affichages des mouvements financiers. Mise en place de la traduction.(français - anglais)"
+    },
+    "cda": {
+      "date": "Juin 2022 à Février 2023",
+      "resume": "Titre Professionnel Concepteur Développeur d'Applications."
+    },
+    "nurserie": {
+      "name": "Nurserie numérique",
+      "date": "Mai à juin 2022",
+      "resume": "Introduction HTML 5, CSS 3, JavaScript, base de données."
+    }
+  },
   "alert": "L'application est actuellement en beta, pour en savoir plus sur les versions, cliquer sur le numéro de version en haut a gauche",
   "phone": "Pas encore optimisé pour mobile",
   "download": "Télécharger"
