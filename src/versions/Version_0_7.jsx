@@ -5,13 +5,11 @@ const Version_0_7 = () => {
     <div>
       {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
-          <p>- Full translation.(application + CV)</p>
-          <p>- Light mode finish.</p>
+          <p>- Translating my experiences and projects</p>
         </div>
       ) : (
         <div>
-          <p>- Traduction totale.(application + CV)</p>
-          <p>- Finition du mode lumineux.</p>
+          <p>- Traduction de mes expériences et projets</p>
         </div>
       )}
     </div>

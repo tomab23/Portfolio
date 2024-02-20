@@ -5,10 +5,12 @@ const Version_0_9 = () => {
     <div>
       {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
+          <p>- Light mode finish.</p>
           <p>- Accessibility and performance.</p>
         </div>
       ) : (
         <div>
+          <p>- Finition du mode lumineux.</p>
           <p>- Accessibilité et performance.</p>
         </div>
       )}
