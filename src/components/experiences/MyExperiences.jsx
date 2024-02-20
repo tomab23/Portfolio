@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const MyExperiences = () => {
 
   const { t } = useTranslation();
-  // {t("navbar.exp")}
+
   return (
     <ol className="relative border-l border-gray-200 dark:border-gray-700 mt-10">
     {/* EXP incubateur */}

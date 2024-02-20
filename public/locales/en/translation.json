@@ -9,7 +9,8 @@
     "title": "Welcome !",
     "pagecv" : "My resume",
     "about": {
-      "title": "Fullstack developer"
+      "title": "Fullstack developer",
+      "myProjects": "see my projets"
     },
     "project": {
       "home": "Latest projects",
@@ -17,7 +18,8 @@
       "alt": "Image of the project",
       "info": "See",
       "button": "See all my projects",
-      "title": "My projects"
+      "title": "My projects",
+      "tools": "Tools used"
     },
     "contactme": {
       "firstname":"Your first name",
@@ -64,14 +66,14 @@
         "name": "Internship",
         "date": "9 January 2023 to 3 February 2023",
         "resume": "Development of a secure business management application.",
-        "job": "Work on application security, user login, creation, modification, deletion and viewing of financial transactions. Set up translation.(French - English)"
+        "job": "Work on application security, user login, creation, modification, deletion and viewing of financial transactions. Set up translation (French - English)."
       },
       "cda": {
         "date": "June 2022 to February 2023",
         "resume": "Professional design of application developer qualification."
       },
       "nurserie": {
-        "name": "Nurserie numeric",
+        "name": "Nursery numeric",
         "date": "May to June 2022",
         "resume": "Introduction to HTML 5, CSS 3, JavaScript, Database."
       }

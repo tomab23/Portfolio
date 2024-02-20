@@ -9,7 +9,8 @@
   "title": "Bienvenue !",
   "pagecv" : "Mon CV",
   "about": {
-    "title": "Développeur fullstack"
+    "title": "Développeur fullstack",
+    "myProjects": "voir mes projets"
   },
   "project": {
     "home": "Derniers projets",
@@ -17,7 +18,8 @@
     "alt": "Image du projet",
     "info": "Voir",
     "button": "Voir tous mes projets",
-    "title": "Mes projets"
+    "title": "Mes projets",
+    "tools": "Outils utilisés"
   },
   "contactme": {
     "firstname":"Votre prénom",
@@ -64,7 +66,7 @@
       "name": "Stage",
       "date": "9 Janvier 2023 au 3 Février 2023",
       "resume": "Développement d’une application de gestion d'entreprise sécurisée.",
-      "job": "Travail sur la sécurité de l'application, connexion utilisateur, création, modification, suppression et affichages des mouvements financiers. Mise en place de la traduction.(français - anglais)"
+      "job": "Travail sur la sécurité de l'application, connexion utilisateur, création, modification, suppression et affichages des mouvements financiers. Mise en place de la traduction (français - anglais)."
     },
     "cda": {
       "date": "Juin 2022 à Février 2023",

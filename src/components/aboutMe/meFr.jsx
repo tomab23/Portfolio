@@ -1,4 +1,5 @@
 import React from 'react'
+import LinkMyProjects from './LinkMyProjects'
 
 const MeFr = () => {
   return (
@@ -9,7 +10,7 @@ const MeFr = () => {
       <br />
       <p>Après <b>obtention du diplôme</b> j'ai intégré un incubateur et une équipe pendant 4 mois où j'ai 
       travaillé sur un projet de covoiturage (CoDrive) en mise en situation professionnelle
-      (<a href="#projects"><i className="hover:underline cursor-pointer">voir mes projets</i></a>).</p>   
+      (<LinkMyProjects />).</p>   
       <br />     
       <p><b>Aujourd'hui</b>, je suis en recherche d'emploi et je suis <b className='dark:text-available-light text-available-dark'>disponible immédiatement</b>.
       </p>

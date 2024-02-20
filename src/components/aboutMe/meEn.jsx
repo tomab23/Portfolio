@@ -1,4 +1,5 @@
 import React from 'react'
+import LinkMyProjects from './LinkMyProjects'
 
 const MeEn = () => {
   return (
@@ -8,7 +9,7 @@ const MeEn = () => {
       <br />
       <p>After <b>graduating</b> I joined an incubator and a team for 4 months. 
       I worked on a car sharing project (CoDrive) in a work situation
-      (<a href="#projects"><i className="hover:underline cursor-pointer">see my projets</i></a>).</p>   
+      (<LinkMyProjects />).</p>   
       <br />     
       <p><b>Today</b>, I am looking for a job and I am  <b className='dark:text-available-light text-available-dark'>available to start immediately</b>.
       </p>

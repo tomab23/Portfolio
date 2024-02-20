@@ -11,11 +11,13 @@ import LinksProject from "../components/projects/LinksProject";
 import ScrollToTop from "../components/buttons/ScrollToTop";
 import { X } from "lucide-react";
 import OpenImage from "../components/projects/OpenImage";
+import { useTranslation } from "react-i18next";
 
 const ProjectPage = () => {
   const location = useLocation();
+  const { t } = useTranslation();
 
-  const theme = localStorage.getItem("darkmode");
+  // const theme = localStorage.getItem("darkmode");
 
   const [project, setProject] = useState({
     id: null,
@@ -31,8 +33,6 @@ const ProjectPage = () => {
     site: "",
     imgs: [],
   });
-
-  console.log("resume", project.resume);
 
   useEffect(() => {
     if (localStorage.getItem("i18nextLng") === "en") {
@@ -79,13 +79,13 @@ const ProjectPage = () => {
 
         <h6 className="mt-5 max-sm:w-[90vw] w-[70vw]">{project.description}</h6>
 
-        {project.more &&
+        {moreDescription &&
         <h6 className="mt-5 max-sm:w-[90vw] w-[70vw]">{project.more}</h6>
         }
 
         {project.outil.length > 0 &&
         <div className="mt-5">
-          <h6>Outils utilisés : </h6>
+          <h6>{t("project.tools")} : </h6>
           {project.outil?.map((outil) => (
             <p before="• " className="before:content-[attr(before)]">{outil}</p>
           ))}
