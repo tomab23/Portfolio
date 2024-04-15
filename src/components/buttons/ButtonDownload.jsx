@@ -1,15 +1,14 @@
 import React from 'react'
 import { Download } from 'lucide-react';
-import pdfFr from "../../assets/pdf/CvFr.pdf"
-import pdfEn from "../../assets/pdf/CvFr.pdf"
+import pdfFr from "../../assets/pdf/CV_2024_fr.pdf"
+import pdfEn from "../../assets/pdf/CV_2024_en.pdf"
 import { useTranslation } from 'react-i18next';
 
 const ButtonDownload = () => {
 
     const { t } = useTranslation();
 
-    // const pdf = localStorage.getItem("i18nextLng") === "en" ? pdfEn ? pdfFr;
-    const pdf = pdfFr;
+    const pdf = localStorage.getItem("i18nextLng") === "en" ? pdfEn : pdfFr;
 
   return (
     <div className="flex justify-center mt-10">

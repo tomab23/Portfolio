@@ -1,13 +1,17 @@
-import cv_img from "../assets/images/CV.jpg";
 import { useTranslation } from "react-i18next";
 import { Suspense } from "react";
 import ButtonBack from "../components/buttons/ButtonBack";
 import Footer from "../components/layout/Footer";
 import ButtonDownload from "../components/buttons/ButtonDownload";
 import ScrollToTop from "../components/buttons/ScrollToTop";
+import cv_img_fr from "../assets/images/CV_2024_fr.jpg"
+import cv_img_en from "../assets/images/CV_2024_en.jpg"
 
 const CvPage = () => {
   const { t } = useTranslation();
+
+  const cv_img = localStorage.getItem("i18nextLng") === "en" ? cv_img_en : cv_img_fr;
+
 
   return (
     <div className="dark:bg-dark bg-light py-5">
