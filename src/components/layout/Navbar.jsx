@@ -1,6 +1,6 @@
 import DarkMode from "../DarkMode"
 import { useTranslation } from "react-i18next";
-import ChangeLanguage from "../ChangeLanguage";
+import ChangeLanguage from './../language/ChangeLanguage';
 
 const Navbar = () => {
 

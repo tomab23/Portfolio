@@ -22,6 +22,7 @@ import Version_0_9 from "../versions/Version_0_9";
 import Version_0_5_1 from "../versions/Version_0_5_1";
 import Version_0_5_2 from "../versions/Version_0_5_2";
 import Version_0_7_1 from "../versions/Version_0_7_1";
+import Version_0_7_2 from "../versions/Version_0_7_2";
 
 
 const Versions = () => {
@@ -49,8 +50,8 @@ const Versions = () => {
       <div className="px-3 lg:px-10 xl:px-20 mt-10 max-sm:text-sm">
         <div>
           <h2>{t("release.current")} :</h2>
-          <ReleaseNote version={"version 0.7.1"}>
-            <Version_0_7_1/>
+          <ReleaseNote version={"version 0.7.2"}>
+            <Version_0_7_2/>
           </ReleaseNote>
         </div>
 
@@ -68,6 +69,9 @@ const Versions = () => {
         {/* Past release note */}
         <div>
         <h2  id='past'>{t("release.old")} :</h2>
+        <ReleaseNote version={"version 0.7.1"}>
+            <Version_0_7_1/>
+          </ReleaseNote>
         <ReleaseNote version={"version 0.7"}>
             <Version_0_7/>
           </ReleaseNote>

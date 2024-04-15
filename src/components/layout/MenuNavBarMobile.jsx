@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Menu } from "lucide-react";
 import { X } from "lucide-react";
 import DarkMode from "../DarkMode";
-import ChangeLanguage from "../ChangeLanguage";
+import ChangeLanguage from "../language/ChangeLanguage";
 
 const MenuNavBarMobile = () => {
   const { t } = useTranslation();
