@@ -12,12 +12,11 @@ import ScrollToTop from "../components/buttons/ScrollToTop";
 import { X } from "lucide-react";
 import OpenImage from "../components/projects/OpenImage";
 import { useTranslation } from "react-i18next";
+import ErrorPage from './ErrorPage';
 
 const ProjectPage = () => {
   const location = useLocation();
   const { t } = useTranslation();
-
-  // const theme = localStorage.getItem("darkmode");
 
   const [project, setProject] = useState({
     id: null,
@@ -58,6 +57,7 @@ const ProjectPage = () => {
     open ? setOpen(false) : setOpen(true);
   };
 
+
   return (
     <div className="dark:bg-dark bg-light min-h-screen px-5 lg:px-10 xl:px-20 pt-5 pb-20 dark:text-white">
       {/* Img open */}
@@ -91,7 +91,7 @@ const ProjectPage = () => {
         <div className="mt-5">
           <h6>{t("project.tools")} : </h6>
           {project.outil?.map((outil) => (
-            <p before="• " className="before:content-[attr(before)]">{outil}</p>
+            <p key={outil} before="• " className="before:content-[attr(before)]">{outil}</p>
           ))}
         </div>
         }
