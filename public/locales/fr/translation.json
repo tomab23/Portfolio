@@ -15,6 +15,8 @@
   "project": {
     "home": "Derniers projets",
     "read": "Voir plus",
+    "incoming": "À venir...",
+    "dev": "En cours de développement",
     "alt": "Image du projet",
     "info": "Voir",
     "button": "Voir tous mes projets",

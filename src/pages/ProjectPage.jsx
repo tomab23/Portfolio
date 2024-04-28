@@ -77,6 +77,10 @@ const ProjectPage = () => {
           ))}
         </div>
 
+        {project.incoming &&
+        <p className="mt-5 max-sm:w-[90vw] w-[70vw] font-bold uppercase text-lg">⚠️ {t("project.dev")}</p>
+        }
+
         <h6 className="mt-5 max-sm:w-[90vw] w-[70vw]">{project.description}</h6>
 
         {moreDescription &&

@@ -29,7 +29,7 @@ const CardProject = ({ project }) => {
         </div>
         <div className="p-3 flex flex-col justify-center items-start">
           <h1 className='dark:text-gray-50'>{project.name}</h1>
-          <p className='dark:text-gray-200 my-1'>{project.resume}</p>
+          <p className='dark:text-gray-200 my-1'>{project.incoming ? t("project.incoming") :  project.resume}</p>
 
           <div className='flex flex-wrap gap-1 my-1'>
             {project.badge.map((tech) => (

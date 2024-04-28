@@ -15,7 +15,7 @@ import codriveAdmin from "../assets/projects/CoDrive/admin.png"
 import dodgeThem from "../assets/projects/DodgeThemGame/dtg_img.png"
 import portfolio from "../assets/projects/Portfolio/ImagePortfolio.png"
 import portfolio2 from "../assets/projects/Portfolio/ImagePortfolio2.png"
-import portfolio3 from "../assets/projects/Portfolio/ImagePortfolio3.png"
+import GsWainting from "../assets/projects/GamesSearch/gs-waiting.png"
 
 
 
@@ -32,7 +32,8 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/TreizzerApp",
         site: "",
-        imgs: [treizzer, treizzerAlbum, treizzerDetail, treizzerSong, treizzerShop]
+        imgs: [treizzer, treizzerAlbum, treizzerDetail, treizzerSong, treizzerShop],
+        incoming: false
     },
     {
         id: 2,
@@ -46,7 +47,8 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/PokemonPokedex",
         site: "https://pokedex-app-532e3.web.app",
-        imgs: [pokedexHome, pokedex]
+        imgs: [pokedexHome, pokedex],
+        incoming: false
     },
     {
         id: 3,
@@ -60,7 +62,8 @@ export const ProjectsMockFr = [
         date: "2022",
         github: "https://github.com/tomab23/AppPizza",
         site: "",
-        imgs: [marioPizza]
+        imgs: [marioPizza],
+        incoming: false
     },
     {
         id: 4,
@@ -74,7 +77,8 @@ export const ProjectsMockFr = [
         date: "2023",
         github: "https://github.com/tomab23/StageCDA",
         site: "",
-        imgs: [financeOpen, finance, financeCreation, financeLogin]
+        imgs: [financeOpen, finance, financeCreation, financeLogin],
+        incoming: false
     },
     {
         id: 5,
@@ -88,7 +92,8 @@ export const ProjectsMockFr = [
         date: "2023",
         github: "https://github.com/tomab23/CoDrive",
         site: "",
-        imgs: [codrive, codriveAdmin]
+        imgs: [codrive, codriveAdmin],
+        incoming: false
     },
     {
         id: 6,
@@ -102,7 +107,8 @@ export const ProjectsMockFr = [
         date: "2024",
         github: "https://github.com/tomab23/DodgeThemGame",
         site: "",
-        imgs: [dodgeThem]
+        imgs: [dodgeThem],
+        incoming: false
     },
     {
         id: 7,
@@ -116,6 +122,22 @@ export const ProjectsMockFr = [
         date: "2023 - 2024",
         github: "https://github.com/tomab23/Portfolio",
         site: "https://thomas-bartier.netlify.app/",
-        imgs: [portfolio, portfolio2]
+        imgs: [portfolio, portfolio2],
+        incoming: false
+    },
+    {
+        id: 8,
+        name: "GamesSearch",
+        resume: "Informations sur des jeux vidéo",
+        badge: ["React js", "Javascript", "DaisyUI"],
+        tech: ["React js","Javascript", "DaisyUI", "I18Next", "Formik"],
+        outil:["Visual Studio Code"],
+        description: "GamesSearch est une application qui vous permet de rechercher des informations sur des jeux vidéo. Il est actuellement en développement.",
+        more: "À la suite de la sortie de la version 1, une version 2 sera disponible, permettant aux utilisateurs de créer un compte et de marquer des jeux comme favoris. Ils pourront également classer les jeux dans une liste de jeux à jouer ou une liste de jeux terminés, en indiquant le nombre d'heures passées à compléter chaque jeu.",
+        date: "2024",
+        github: "https://github.com/tomab23/GamesSearch",
+        site: "https://gamessearch.netlify.app/",
+        imgs: [GsWainting],
+        incoming: true
     },
   ];
