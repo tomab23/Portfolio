@@ -78,6 +78,10 @@
       "resume": "Introduction HTML 5, CSS 3, JavaScript, base de données."
     }
   },
+  "flag": {
+    "fr": "drapeau de la France",
+    "en": "drapeau du Royaume-Uni"
+  },
   "alert": "L'application est actuellement en beta, pour en savoir plus sur les versions, cliquer sur le numéro de version en haut a gauche",
   "phone": "Pas encore optimisé pour mobile",
   "download": "Télécharger"

@@ -78,6 +78,10 @@
         "resume": "Introduction to HTML 5, CSS 3, JavaScript, Database."
       }
     },
+    "flag": {
+      "fr": "French flag",
+      "en": "United kingdom flag"
+    },
     "alert": "The app is currently in beta, to find out more about versions, click on the version number in the top left corner.",
     "phone": "Not yet optimised for mobile",
     "download": "Download"
