@@ -13,7 +13,7 @@ const FlagLanguage = ({ language }) => {
     <div>
       <div>
           <div className="flex items-center gap-1">
-            <img src={language === "en" ? "Flag_of_the_United_Kingdom.webp" : "Flag_of_France.webp"} 
+            <img src={language === "en" ? flagEn : flagFr} 
             alt={language === "en" ? t("flag.en") : t("flag.fr")} className="h-3" />
             <p className="text-sm">{text}</p>
           </div>

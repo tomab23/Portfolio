@@ -12,14 +12,14 @@ const LangueChoose = () => {
       <div>
         {localStorage.getItem("i18nextLng") === "en" ? (
           <div className="flex items-center gap-1">
-            <img src="Flag_of_the_United_Kingdom.webp" 
-            alt={t("flag.en")} className="h-3" decoding="async" loading="lazy" />
+            <img src={flagEn} 
+            alt={t("flag.en")} className="h-3" />
             <p className="text-sm">EN</p>
           </div>
         ) : (
           <div className="flex items-center gap-1">
-            <img src="Flag_of_France.webp" 
-            alt={t("flag.fr")} className="h-3" decoding="async" loading="lazy"/>
+            <img src={flagFr}
+            alt={t("flag.fr")} className="h-3"/>
             <p className="text-sm">FR</p>
           </div>
         )}
