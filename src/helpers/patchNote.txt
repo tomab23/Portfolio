@@ -1,8 +1,7 @@
 
-
+- Mise a jour des drapeaux pour le changement de langue - Updating flags for language change OK
 TODO: 
 0.7.3
-- Mise a jour des drapeaux pour le changement de langue - Updating flags for language change
 - Correction de la position pour le menu du choix de langue - Fix language dropdown position
 
 0.7.4
