@@ -69,7 +69,7 @@ const ChangeLanguage = ({ mobile }) => {
             </svg>
           </button>
           {isOpen && (
-            <div className="absolute w-20 rounded-md shadow-lg mt-2 bg-slate-600 ">
+            <div className="absolute w-20 rounded-md shadow-lg mt-3 3xl:mt-4 bg-slate-600 ">
               <ul className="py-2 ">
                 <li
                   className="px-4 py-2 cursor-pointer dark:hover:bg-slate-700 hover:bg-slate-500"

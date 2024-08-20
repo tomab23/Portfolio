@@ -52,17 +52,14 @@ const Versions = () => {
       <div className="px-3 lg:px-10 xl:px-20 mt-10 max-sm:text-sm">
         <div>
           <h2>{t("release.current")} :</h2>
-          <ReleaseNote version={"version 0.7.2"}>
-            <Version_0_7_2/>
+          <ReleaseNote version={"version 0.7.3"}>
+            <Version_0_7_3/>
           </ReleaseNote>
         </div>
 
         {/* Futur release note */}
         <div className="my-20">
           <h2 id="futur">{t("release.future")} :</h2>
-          <ReleaseNote version={"version 0.7.3"}>
-            <Version_0_7_3/>
-          </ReleaseNote>
           <ReleaseNote version={"version 0.7.4"}>
             <Version_0_7_4/>
           </ReleaseNote>
@@ -77,6 +74,9 @@ const Versions = () => {
         {/* Past release note */}
         <div>
         <h2  id='past'>{t("release.old")} :</h2>
+        <ReleaseNote version={"version 0.7.2"}>
+            <Version_0_7_2/>
+          </ReleaseNote>
         <ReleaseNote version={"version 0.7.1"}>
             <Version_0_7_1/>
           </ReleaseNote>
