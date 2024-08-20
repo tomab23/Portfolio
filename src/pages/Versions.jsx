@@ -23,6 +23,8 @@ import Version_0_5_1 from "../versions/Version_0_5_1";
 import Version_0_5_2 from "../versions/Version_0_5_2";
 import Version_0_7_1 from "../versions/Version_0_7_1";
 import Version_0_7_2 from "../versions/Version_0_7_2";
+import Version_0_7_3 from "../versions/Version_0_7_3";
+import Version_0_7_4 from "../versions/Version_0_7_4";
 
 
 const Versions = () => {
@@ -58,6 +60,12 @@ const Versions = () => {
         {/* Futur release note */}
         <div className="my-20">
           <h2 id="futur">{t("release.future")} :</h2>
+          <ReleaseNote version={"version 0.7.3"}>
+            <Version_0_7_3/>
+          </ReleaseNote>
+          <ReleaseNote version={"version 0.7.4"}>
+            <Version_0_7_4/>
+          </ReleaseNote>
           <ReleaseNote version={"version 0.8"}>
             <Version_0_8/>
           </ReleaseNote>

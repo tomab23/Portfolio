@@ -1,8 +1,12 @@
 
 
-TODO: ?
+TODO: 
+0.7.3
+- Mise a jour des drapeaux pour le changement de langue - Updating flags for language change
+- Correction de la position pour le menu du choix de langue - Fix language dropdown position
 
-- Maj drapeaux changement de langue
+0.7.4
+- Nouveau systeme pour ouvrir agrandir l'image d'un projet - New system for opening an image of a project
 
 a ajouter ? : 
 
