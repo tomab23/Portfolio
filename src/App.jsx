@@ -13,6 +13,7 @@ import ErrorPage from "./pages/ErrorPage"
 function App() {
 
   useEffect(() => {
+    localStorage.getItem("darkmode") ? localStorage.getItem("darkmode") : localStorage.setItem("darkmode", "dark");
     if(localStorage.getItem("darkmode") === "dark") {
         document.documentElement.classList.add("dark");
     } else {

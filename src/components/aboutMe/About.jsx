@@ -20,7 +20,7 @@ const About = () => {
             <p>France, Lille</p>
           </div>
         </div>
-        <img src={pres} alt="" className="sm:h-80 sm:w-80" />
+        <img src={pres} rel="preload" alt="image" className="sm:h-80 sm:w-80" />
       </div>
 
       {/* LINKS */}

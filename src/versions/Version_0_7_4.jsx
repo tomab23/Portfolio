@@ -5,11 +5,13 @@ const Version_0_7_4 = () => {
         <div>
           {localStorage.getItem("i18nextLng") === "en" ? (
             <div>
-              <p>- New system for opening an image of a project.</p>
+              <p>- Fixed an issue with loading the correct theme in mobile version.</p>
+              <p>- Updating the color of application themes.</p>
             </div>
           ) : (
             <div>
-              <p>- Nouveau systeme pour ouvrir l'image d'un projet.</p>
+              <p>- Correction d'un probleme avec le chargement du bon thème en version mobile.</p>
+              <p>- Modification de couleur des thèmes de l'application.</p>
             </div>
           )}
         </div>

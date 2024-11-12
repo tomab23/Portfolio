@@ -25,7 +25,7 @@ export default {
         },
         "light": {
           light: "",
-          DEFAULT: "#d1d5db",
+          DEFAULT: "	#F8F8FF",
           dark: ""
         },
         "available" : {

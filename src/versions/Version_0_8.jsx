@@ -5,11 +5,11 @@ const Version_0_8 = () => {
     <div>
       {localStorage.getItem("i18nextLng") === "en" ? (
         <div>
-          <p>- Responsive application on all screen sizes.</p>
+          <p>- New system for opening an image of a project.</p>
         </div>
       ) : (
         <div>
-          <p>- Application adaptée à toutes les tailles d'écrans.</p>
+          <p>- Nouveau systeme pour ouvrir l'image d'un projet.</p>
         </div>
       )}
     </div>

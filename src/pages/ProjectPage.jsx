@@ -69,7 +69,11 @@ const ProjectPage = () => {
         <h1 className="text-center uppercase max-sm:mr-5">{project.name}</h1>
       </div>
       <main className="mt-10">
-        <h6>{project.date}</h6>
+        {!project.incoming ?
+        <h6 className="font-semibold">{project.date}</h6>
+        :
+        <h6 className="font-semibold">{project.date} - ??</h6>  
+      }
 
         <div className="flex flex-wrap gap-2 mt-3">
           {project.tech?.map((tech) => (
@@ -78,7 +82,7 @@ const ProjectPage = () => {
         </div>
 
         {project.incoming &&
-        <p className="mt-5 max-sm:w-[90vw] w-[70vw] font-bold uppercase text-lg">⚠️ {t("project.dev")}</p>
+        <p className="mt-5 max-sm:w-[90vw] w-[70vw] font-bold uppercase text-lg">⚠️ {t("project.dev")} ⚠️</p>
         }
 
         <h6 className="mt-5 max-sm:w-[90vw] w-[70vw]">{project.description}</h6>

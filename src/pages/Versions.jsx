@@ -25,6 +25,7 @@ import Version_0_7_1 from "../versions/Version_0_7_1";
 import Version_0_7_2 from "../versions/Version_0_7_2";
 import Version_0_7_3 from "../versions/Version_0_7_3";
 import Version_0_7_4 from "../versions/Version_0_7_4";
+import Version_1_0 from "../versions/Version_1_0";
 
 
 const Versions = () => {
@@ -52,28 +53,31 @@ const Versions = () => {
       <div className="px-3 lg:px-10 xl:px-20 mt-10 max-sm:text-sm">
         <div>
           <h2>{t("release.current")} :</h2>
-          <ReleaseNote version={"version 0.7.3"}>
-            <Version_0_7_3/>
+          <ReleaseNote version={"version 0.7.4"}>
+            <Version_0_7_4/>
           </ReleaseNote>
         </div>
 
         {/* Futur release note */}
         <div className="my-20">
           <h2 id="futur">{t("release.future")} :</h2>
-          <ReleaseNote version={"version 0.7.4"}>
-            <Version_0_7_4/>
-          </ReleaseNote>
           <ReleaseNote version={"version 0.8"}>
             <Version_0_8/>
           </ReleaseNote>
           <ReleaseNote version={"version 0.9"}>
             <Version_0_9/>
           </ReleaseNote>
+          <ReleaseNote version={"version 1.0"}>
+            <Version_1_0/>
+          </ReleaseNote>
         </div>
 
         {/* Past release note */}
         <div>
         <h2  id='past'>{t("release.old")} :</h2>
+        <ReleaseNote version={"version 0.7.3"}>
+            <Version_0_7_3/>
+          </ReleaseNote>
         <ReleaseNote version={"version 0.7.2"}>
             <Version_0_7_2/>
           </ReleaseNote>
