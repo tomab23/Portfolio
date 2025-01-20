@@ -123,19 +123,19 @@ export const ProjectsMockEn = [
         imgs: [portfolio, portfolio2],
         incoming: false
     },
-    {
-        id: 8,
-        name: "GamesSearch",
-        resume: "Information on video games",
-        badge: ["React js", "Javascript", "DaisyUI"],
-        tech: ["React js","Javascript", "DaisyUI", "I18Next", "Formik"],
-        outil:["Visual Studio Code"],
-        description: "GamesSearch is an application that allows you to search for information about video games. It is currently under development.",
-        more: "Following the release of version 1, version 2 will be available, allowing users to create an account and mark games as favourites. They will also be able to classify games into a list of games to play or a list of completed games, indicating the number of hours spent completing each game.",
-        date: "2024",
-        github: "https://github.com/tomab23/GamesSearch",
-        site: "https://gamessearch.netlify.app/",
-        imgs: [GsWainting],
-        incoming: true
-    },
+    // {
+    //     id: 8,
+    //     name: "GamesSearch",
+    //     resume: "Information on video games",
+    //     badge: ["React js", "Javascript", "DaisyUI"],
+    //     tech: ["React js","Javascript", "DaisyUI", "I18Next", "Formik"],
+    //     outil:["Visual Studio Code"],
+    //     description: "GamesSearch is an application that allows you to search for information about video games. It is currently under development.",
+    //     more: "Following the release of version 1, version 2 will be available, allowing users to create an account and mark games as favourites. They will also be able to classify games into a list of games to play or a list of completed games, indicating the number of hours spent completing each game.",
+    //     date: "2024",
+    //     github: "https://github.com/tomab23/GamesSearch",
+    //     site: "https://gamessearch.netlify.app/",
+    //     imgs: [GsWainting],
+    //     incoming: true
+    // },
   ];

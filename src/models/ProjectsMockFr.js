@@ -125,19 +125,19 @@ export const ProjectsMockFr = [
         imgs: [portfolio, portfolio2],
         incoming: false
     },
-    {
-        id: 8,
-        name: "GamesSearch",
-        resume: "Informations sur des jeux vidéo",
-        badge: ["React js", "Javascript", "DaisyUI"],
-        tech: ["React js","Javascript", "DaisyUI", "I18Next", "Formik"],
-        outil:["Visual Studio Code"],
-        description: "GamesSearch est une application qui vous permet de rechercher des informations sur des jeux vidéo. Il est actuellement en développement.",
-        more: "À la suite de la sortie de la version 1, une version 2 sera disponible, permettant aux utilisateurs de créer un compte et de marquer des jeux comme favoris. Ils pourront également classer les jeux dans une liste de jeux à jouer ou une liste de jeux terminés, en indiquant le nombre d'heures passées à compléter chaque jeu.",
-        date: "2024",
-        github: "https://github.com/tomab23/GamesSearch",
-        site: "https://gamessearch.netlify.app/",
-        imgs: [GsWainting],
-        incoming: true
-    },
+    // {
+    //     id: 8,
+    //     name: "GamesSearch",
+    //     resume: "Informations sur des jeux vidéo",
+    //     badge: ["React js", "Javascript", "DaisyUI"],
+    //     tech: ["React js","Javascript", "DaisyUI", "I18Next", "Formik"],
+    //     outil:["Visual Studio Code"],
+    //     description: "GamesSearch est une application qui vous permet de rechercher des informations sur des jeux vidéo. Il est actuellement en développement.",
+    //     more: "À la suite de la sortie de la version 1, une version 2 sera disponible, permettant aux utilisateurs de créer un compte et de marquer des jeux comme favoris. Ils pourront également classer les jeux dans une liste de jeux à jouer ou une liste de jeux terminés, en indiquant le nombre d'heures passées à compléter chaque jeu.",
+    //     date: "2024",
+    //     github: "https://github.com/tomab23/GamesSearch",
+    //     site: "https://gamessearch.netlify.app/",
+    //     imgs: [GsWainting],
+    //     incoming: true
+    // },
   ];
