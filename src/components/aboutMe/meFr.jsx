@@ -12,7 +12,7 @@ const MeFr = () => {
       travaillé sur un projet de covoiturage (CoDrive) en mise en situation professionnelle
       (<LinkMyProjects />).</p>   
       <br />     
-      <p><b>Aujourd'hui</b>, je suis en recherche d'emploi et je suis <b className='dark:text-available-light text-available-dark'>disponible immédiatement</b>.
+      <p>Je suis <b className='dark:text-available-light text-available-dark'>disponible immédiatement</b>.
       </p>
     </div>
   )

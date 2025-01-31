@@ -4,8 +4,8 @@ import ButtonBack from "../components/buttons/ButtonBack";
 import Footer from "../components/layout/Footer";
 import ButtonDownload from "../components/buttons/ButtonDownload";
 import ScrollToTop from "../components/buttons/ScrollToTop";
-import cv_img_fr from "../assets/images/CV_2024_fr.jpg"
-import cv_img_en from "../assets/images/CV_2024_en.jpg"
+import cv_img_fr from "../assets/images/CV_2025_fr.jpg"
+import cv_img_en from "../assets/images/CV_2025_en.jpg"
 
 const CvPage = () => {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ const CvPage = () => {
       </div>
       {/* IMG CV */}
       <Suspense fallback={<h2>🌀 Loading...</h2>}>
-        <div className="flex justify-center h-[60vw] max-sm:h-[130vw] max-xl:h-[110vw] mt-5 max-sm:mt-10 ">
+        <div className="flex justify-center h-[61vw] max-sm:h-[130vw] max-xl:h-[110vw] mt-5 max-sm:mt-10 ">
           <img
             src={cv_img}
             alt="mon cv"

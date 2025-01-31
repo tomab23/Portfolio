@@ -1,7 +1,7 @@
 import React from 'react'
 import { Download } from 'lucide-react';
-import pdfFr from "../../assets/pdf/CV_2024_fr.pdf"
-import pdfEn from "../../assets/pdf/CV_2024_en.pdf"
+import pdfFr from "../../assets/pdf/CV_2025_fr.pdf"
+import pdfEn from "../../assets/pdf/CV_2025_en.pdf"
 import { useTranslation } from 'react-i18next';
 
 const ButtonDownload = () => {

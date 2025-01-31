@@ -7,9 +7,9 @@
     "contact": "Contact"
   },
   "title": "Bienvenue !",
-  "pagecv" : "Mon CV",
+  "pagecv": "Mon CV",
   "about": {
-    "title": "Développeur fullstack",
+    "title": "Développeur fullstack en recherche d'alternance",
     "myProjects": "voir mes projets"
   },
   "project": {
@@ -24,7 +24,7 @@
     "tools": "Outils utilisés"
   },
   "contactme": {
-    "firstname":"Votre prénom",
+    "firstname": "Votre prénom",
     "lastname": "Votre nom",
     "email": "Votre email",
     "message": "Votre message",
