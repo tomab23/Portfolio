@@ -13,6 +13,7 @@ const MeFr = () => {
       (<LinkMyProjects />).</p>   
       <br />     
       <p>Je suis <b className='dark:text-available-light text-available-dark'>disponible immédiatement</b>.
+      
       </p>
     </div>
   )

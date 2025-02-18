@@ -32,8 +32,15 @@ const Home = () => {
         {t("title")}
       </CustomTitle>
 
-      <p className="dark:text-white text-center mb-5 italic max-sm:px-2">
-        ⚠️ {t("alert")} ⚠️
+      <p className="dark:text-white text-center mb-5 max-sm:px-2">
+        ⚠️
+        <a
+          className="cursor-pointer hover:underline uppercase"
+          href="https://thomas-bartier.netlify.app/"
+        >
+          {t("alert")}
+        </a>{" "}
+        ⚠️
       </p>
 
       <ScrollToTop />
